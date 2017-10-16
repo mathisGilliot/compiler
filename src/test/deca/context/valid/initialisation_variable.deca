@@ -1,0 +1,7 @@
+// Description :
+//initialisation d'une variable
+//
+// Resultats : 
+// ok 
+
+{int x = 3;}

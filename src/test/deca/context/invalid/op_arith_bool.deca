@@ -1,0 +1,10 @@
+// Description :
+// test d'une opération arithmétique sur des booléens
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Opération arithmétique entre des objets de type boolean et boolean impossible (règle 3.37)
+
+{
+  true + false;
+}

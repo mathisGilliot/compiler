@@ -1,0 +1,10 @@
+// Description :
+// test d'une égalité entre un booléen et un entier
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Comparaison entre des objets de type int et boolean impossible (règle 3.33)
+
+{
+  1 == true;
+}

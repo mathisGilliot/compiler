@@ -1,0 +1,12 @@
+// Description :
+// test d'une instruction
+//
+// Résultats :
+// ok
+
+class A {
+}
+
+class B extends A{
+
+}

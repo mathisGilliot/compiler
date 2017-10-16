@@ -1,0 +1,1 @@
+./../deca/context/invalid/instance_of_null.deca:9:3: Opération instanceof impossible entre des objets de type null et int (règle 3.40)

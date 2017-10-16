@@ -1,0 +1,1 @@
+./../deca/context/invalid/op_un_minus_null.deca:9:2: Moins unaire sur un objet de type null impossible (règle 3.37)

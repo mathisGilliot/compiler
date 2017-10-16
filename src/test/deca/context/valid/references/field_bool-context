@@ -1,0 +1,32 @@
+`> [11, 0] Program
+   +> ListDeclClass [List with 1 elements]
+   |  []> [11, 0] DeclClass
+   |      +> [11, 6] Identifier (A)
+   |      |  definition: type defined at [11, 0], type=A
+   |      +> [builtin] Identifier (Object)
+   |      |  definition: type (builtin), type=Object
+   |      +> ListDeclField [List with 3 elements]
+   |      |  []> [12, 10] [visibility=PUBLIC] DeclField
+   |      |  ||  +> [12, 2] Identifier (boolean)
+   |      |  ||  |  definition: type (builtin), type=boolean
+   |      |  ||  +> [12, 10] Identifier (x)
+   |      |  ||  |  definition: field defined at [12, 10], type=boolean
+   |      |  ||  `> NoInitialization
+   |      |  []> [13, 10] [visibility=PUBLIC] DeclField
+   |      |  ||  +> [13, 2] Identifier (boolean)
+   |      |  ||  |  definition: type (builtin), type=boolean
+   |      |  ||  +> [13, 10] Identifier (y)
+   |      |  ||  |  definition: field defined at [13, 10], type=boolean
+   |      |  ||  `> [13, 12] Initialization
+   |      |  ||     `> [13, 14] BooleanLiteral (true)
+   |      |  ||        type: boolean
+   |      |  []> [14, 10] [visibility=PUBLIC] DeclField
+   |      |      +> [14, 2] Identifier (boolean)
+   |      |      |  definition: type (builtin), type=boolean
+   |      |      +> [14, 10] Identifier (z)
+   |      |      |  definition: field defined at [14, 10], type=boolean
+   |      |      `> [14, 12] Initialization
+   |      |         `> [14, 14] BooleanLiteral (false)
+   |      |            type: boolean
+   |      `> ListDeclMethod [List with 0 elements]
+   `> EmptyMain

@@ -1,0 +1,11 @@
+`> [10, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [10, 0] Main
+      +> ListDeclVar [List with 0 elements]
+      `> ListInst [List with 2 elements]
+         []> [11, 6] Print
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [11, 6] StringLiteral (test avec )
+         []> [12, 9] Println
+             `> ListExpr [List with 1 elements]
+                []> [12, 9] StringLiteral (deux print)

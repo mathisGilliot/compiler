@@ -1,0 +1,11 @@
+// Description:
+//    Programme qui declare affiche une chaine de charactere
+//
+// Resultats:
+//  Hello World 2!!!
+//
+// Historique:
+//    cree le 13/01/2017
+{
+        println("Hello World 2!!!");
+}

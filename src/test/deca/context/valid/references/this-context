@@ -1,0 +1,69 @@
+`> [10, 0] Program
+   +> ListDeclClass [List with 1 elements]
+   |  []> [10, 0] DeclClass
+   |      +> [10, 6] Identifier (A)
+   |      |  definition: type defined at [10, 0], type=A
+   |      +> [builtin] Identifier (Object)
+   |      |  definition: type (builtin), type=Object
+   |      +> ListDeclField [List with 1 elements]
+   |      |  []> [11, 8] [visibility=PUBLIC] DeclField
+   |      |      +> [11, 4] Identifier (int)
+   |      |      |  definition: type (builtin), type=int
+   |      |      +> [11, 8] Identifier (x)
+   |      |      |  definition: field defined at [11, 8], type=int
+   |      |      `> NoInitialization
+   |      `> ListDeclMethod [List with 2 elements]
+   |         []> [12, 4] DeclMethod
+   |         ||  +> [12, 4] Identifier (int)
+   |         ||  |  definition: type (builtin), type=int
+   |         ||  +> [12, 8] Identifier (getX)
+   |         ||  |  definition: method defined at [12, 4], type=int
+   |         ||  +> ListDeclParam [List with 0 elements]
+   |         ||  `> [12, 15] MethodBody
+   |         ||     +> ListDeclVar [List with 0 elements]
+   |         ||     `> ListInst [List with 1 elements]
+   |         ||        []> [13, 5] Return
+   |         ||            `> [13, 12] Selection
+   |         ||               type: int
+   |         ||               +> [13, 12] This 
+   |         ||               |  type: A
+   |         ||               `> [13, 17] Identifier (x)
+   |         ||                  definition: field defined at [11, 8], type=int
+   |         []> [15, 4] DeclMethod
+   |             +> [15, 4] Identifier (void)
+   |             |  definition: type (builtin), type=void
+   |             +> [15, 9] Identifier (setX)
+   |             |  definition: method defined at [15, 4], type=void
+   |             +> ListDeclParam [List with 1 elements]
+   |             |  []> [15, 14] DeclParam
+   |             |      +> [15, 14] Identifier (int)
+   |             |      |  definition: type (builtin), type=int
+   |             |      `> [15, 18] Identifier (a)
+   |             |         definition: parameter defined at [15, 14], type=int
+   |             `> [15, 21] MethodBody
+   |                +> ListDeclVar [List with 1 elements]
+   |                |  []> [16, 12] DeclVar
+   |                |      +> [16, 8] Identifier (int)
+   |                |      |  definition: type (builtin), type=int
+   |                |      +> [16, 12] Identifier (x)
+   |                |      |  definition: variable defined at [16, 12], type=int
+   |                |      `> [16, 14] Initialization
+   |                |         `> [16, 16] MethodCall
+   |                |            type: int
+   |                |            +> [16, 16] This 
+   |                |            |  type: A
+   |                |            +> [16, 21] Identifier (getX)
+   |                |            |  definition: method defined at [12, 4], type=int
+   |                |            `> ListExpr [List with 0 elements]
+   |                `> ListInst [List with 1 elements]
+   |                   []> [17, 5] Assign
+   |                       type: int
+   |                       +> [17, 5] Selection
+   |                       |  type: int
+   |                       |  +> [17, 5] This 
+   |                       |  |  type: A
+   |                       |  `> [17, 10] Identifier (x)
+   |                       |     definition: field defined at [11, 8], type=int
+   |                       `> [17, 14] Identifier (a)
+   |                          definition: parameter defined at [15, 14], type=int
+   `> EmptyMain

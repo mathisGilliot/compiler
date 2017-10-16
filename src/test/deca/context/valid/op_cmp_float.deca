@@ -1,0 +1,16 @@
+// Description :
+// test de comparaisons entre des flottants
+//
+// Résultats :
+// ok
+
+{
+  boolean b;
+  float x = 1.0;
+  b = x == 1.0;
+  b = x != 2.0;
+  b = x < 2.0;
+  b = x > 2.0;
+  b = x <= 2.0;
+  b = x >= 2.0;
+}

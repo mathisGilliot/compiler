@@ -1,0 +1,12 @@
+// Description:
+//    test des opérateurs booleens
+//
+// Resultats:
+//    ok
+
+
+{ boolean v;
+  boolean u;
+  u && v && true;
+  u && v || false;
+ }

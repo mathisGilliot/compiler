@@ -1,0 +1,30 @@
+// Description :
+// on déclare D une classe qui n'hérite pas de A. On déclare une variable de type D et on essaie d'appeler le champ x avec cette variable.
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 28 : x n'a pas été déclarée (Règle (0.1))
+
+
+  class A {
+  	int x;
+  	
+  }
+  
+  class B extends A {
+  
+  }
+  
+  class C extends B {
+  	int y ;
+  	
+  }
+  
+  class D {
+  }
+  {
+  D f;
+  int z;
+  f.x = z;
+  }
+

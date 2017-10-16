@@ -1,0 +1,13 @@
+// Description :
+// test d'un if then else
+//
+// Résultats :
+// ok
+
+{
+  if (true) {
+    println("true");
+  } else {
+    println("false");
+  }
+}

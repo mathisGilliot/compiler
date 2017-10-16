@@ -1,0 +1,12 @@
+// Description :
+// on alterne les opérateur or et and
+//
+// Resultats:
+//   ok
+
+{ boolean x;
+  boolean y;
+  boolean z;
+  boolean a;
+  x || y && z || a; 
+}

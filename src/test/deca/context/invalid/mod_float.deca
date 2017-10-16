@@ -1,0 +1,11 @@
+// Description :
+// test d'un modulo entre des flottants
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 10 : Opération mod impossible avec des objets de type float (règle 3.33)
+
+{
+  float x;
+  x = 1.0 % 5.0;
+}

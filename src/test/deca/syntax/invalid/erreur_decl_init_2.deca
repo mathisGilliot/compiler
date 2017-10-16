@@ -1,0 +1,8 @@
+// Description:
+//    mauvaise déclaration/initialisation
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 11 : "mismatched input '<' expecting {',', ';'}"
+
+{ float x<2 ;}

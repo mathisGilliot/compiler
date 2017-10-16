@@ -1,0 +1,10 @@
+// Description :
+// test d'une comparaison entre des booléens
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Comparaison enre des objets de type boolean et boolean impossible (règle 3.33)
+
+{
+  boolean b = true < false;
+}

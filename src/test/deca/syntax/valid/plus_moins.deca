@@ -1,0 +1,9 @@
+// Description:
+//    on ajoute à x un entier négatif
+//
+// Resultats:
+//   ok
+
+
+{ int x;
+  x +-3;}

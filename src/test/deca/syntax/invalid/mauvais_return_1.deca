@@ -1,0 +1,8 @@
+// Description:
+//    on retourne 2 expr 
+//
+// Resultats:
+// ligne 8:  "extraneous input '3' expecting {'<', '>', '=', '+', '-', '*', '%', '/', '.', ';', '==', '!=', '>=', '<=', '&&', '||', 'instanceof'}"
+
+
+{ return 2 3;}

@@ -1,0 +1,16 @@
+// Description:
+//    Programme utilisant if et else.
+//
+// Resultats:
+//    mieux
+//
+// Historique:
+//    cree le 13/01/2017
+{
+int x = 0;
+if (x != 0) {
+   println("ok");
+} else {
+  println("mieux");
+  }
+}

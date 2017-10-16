@@ -1,0 +1,19 @@
+// Description:
+//    test simple d'un Inf boolean en condition
+//
+// Resultats:
+//  ok
+//
+//
+// Historique:
+//    cree le 22/01/2017
+{
+int x = 1;
+int y = 2;
+if (x<y){
+  print("ok");
+  }
+else {
+  print("oups");
+  }
+}

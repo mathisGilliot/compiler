@@ -1,0 +1,9 @@
+// Description :
+// test d'une non opération
+//
+// Résultats :
+// ok
+
+{
+  ;
+}

@@ -1,0 +1,19 @@
+// Description:
+//    Test de la selection d'un champ
+//
+// Résultats:
+//    OK
+//
+// Historique:
+//    créé le 22/01/2017
+
+class A {
+    int x;
+    int getX() {
+    	return this.x;
+    }
+}
+{
+    A a = new A();
+    a.x = 1;
+}

@@ -1,0 +1,12 @@
+// Description :
+// test du moins unaire sur un entier
+//
+// Résultats :
+// ok
+
+{
+  int x;
+  float y;
+  x = -5;
+  y = -3;
+}

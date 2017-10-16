@@ -1,0 +1,11 @@
+// Description:
+//    tests de programme correct lexicalement
+//
+// Resultats:
+//    Je dis "bonjour"
+//
+// Historique:
+//    cree le 13/01/2017
+
+{ println("Je dis \"bonjour\" ");
+}

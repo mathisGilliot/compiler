@@ -1,0 +1,1 @@
+./../deca/context/invalid/initialisation_variable_avec_mauvais_type_1.deca:8:9: Affectation à un objet de type int une valeur de type float impossible (règle 3.28)

@@ -1,0 +1,18 @@
+// Description:
+//    Test d'une déclaration d'une liste de classes suivie d'un main
+//
+// Résultats:
+//    OK
+//
+// Historique:
+//    créé le 19/01/2017
+
+
+class A {
+}
+class B {
+}
+class C extends A {
+}
+{
+}

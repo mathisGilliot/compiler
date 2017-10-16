@@ -1,0 +1,14 @@
+// Description :
+// test d'une expression quelconque
+//
+// Résultats :
+// ok
+
+{
+  4;
+  5.0;
+  null;
+  "Hello";
+  println("Hello");
+  true;
+}

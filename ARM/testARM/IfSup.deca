@@ -1,0 +1,20 @@
+// Description:
+//    test simple d'un infEg boolean en condition
+//
+// Resultats:
+//  ok
+//
+//
+// Historique:
+//    cree le 22/01/2017
+{
+int x =1;
+int y=2;
+if (x<=y){
+  x = 3;
+  }
+else {
+  x = 0;
+  }
+print(x);
+}

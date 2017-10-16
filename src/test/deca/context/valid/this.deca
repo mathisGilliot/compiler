@@ -1,0 +1,19 @@
+// Description:
+//    Test d'un this
+//
+// Résultats:
+//    OK
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+    int x;
+    int getX() {
+    	return this.x;
+    }
+    void setX(int a) {
+        int x = this.getX();
+    	this.x = a;
+    }
+}

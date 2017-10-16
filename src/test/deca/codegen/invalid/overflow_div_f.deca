@@ -1,0 +1,14 @@
+// Description:
+//    div trop grande
+//
+// Resultats:
+//   renvoie une erreur
+//
+//
+// Historique:
+//    cree le 21/01/2017
+{
+float x;
+x = 299999999999999999999999999999999999999.0 / 0.0000000000000001;
+print(x);
+}

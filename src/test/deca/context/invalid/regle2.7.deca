@@ -1,0 +1,40 @@
+// Description:
+//    exemple de programme deca pour vérifier la validité de la syntaxe contextuelle
+//
+// Resultats:
+//  Erreur contextuelle: la signature de la méthode M n'est pas la même que pour la méthode de la super classe ! ( Règle 2.7)
+//
+
+class A {
+	void M ( ) {
+	float d;
+	}
+	
+	int F (int a) {
+	}
+	
+	int b;
+		
+	boolean D (float k, int g, float f) {
+	}
+}
+class B extends A {
+	float e;
+	int Z () {
+	boolean b;
+	}
+	
+	void M (int b ) {
+	float j;
+	}
+	
+	int K ( ) {
+	int p ;
+	}	
+}
+
+{
+	int b;
+	b=2;
+	
+	}

@@ -1,0 +1,18 @@
+// Description:
+//    test initialisation field dans une classe
+//
+// Resultats:
+//  0
+//
+//
+// Historique:
+//    cree le 23/01/2017
+
+class A{
+    float x;
+  }
+{
+A test = new A();
+print(test.x);
+
+}

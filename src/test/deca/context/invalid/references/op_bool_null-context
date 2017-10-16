@@ -1,0 +1,1 @@
+./../deca/context/invalid/op_bool_null.deca:9:2: Opération logique impossible entre des objets de type boolean et null (règle 3.33)

@@ -1,0 +1,10 @@
+// Description :
+// test d'une opération logique entre un flottant et un booléen
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Opération logique impossible entre des objets de type float et boolean (règle 3.33)
+
+{
+  1.0 && true;
+}

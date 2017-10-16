@@ -1,0 +1,10 @@
+// Description :
+// test d'une opération logique entre une chaîne de caractères et un booléen
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Opération logique impossible entre des objets de type string et boolean (règle 3.33)
+
+{
+  "Hello" && true;
+}

@@ -1,0 +1,19 @@
+// Description:
+//    Test d'une déclaration d'un champ initialisé à null;
+//
+// Résultats:
+//    Ligne 12 : le type string n'existe pas! (Règle (0.2))
+//
+// Historique:
+//    créé le 21/01/2017
+
+
+class A {
+  int x;
+  void hello() {
+    print("Hello !");
+  }
+    string s;
+}
+{
+}

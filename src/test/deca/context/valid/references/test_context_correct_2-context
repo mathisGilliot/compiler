@@ -1,0 +1,67 @@
+`> [8, 2] Program
+   +> ListDeclClass [List with 4 elements]
+   |  []> [8, 2] DeclClass
+   |  ||  +> [8, 8] Identifier (A)
+   |  ||  |  definition: type defined at [8, 2], type=A
+   |  ||  +> [builtin] Identifier (Object)
+   |  ||  |  definition: type (builtin), type=Object
+   |  ||  +> ListDeclField [List with 1 elements]
+   |  ||  |  []> [9, 7] [visibility=PUBLIC] DeclField
+   |  ||  |      +> [9, 3] Identifier (int)
+   |  ||  |      |  definition: type (builtin), type=int
+   |  ||  |      +> [9, 7] Identifier (x)
+   |  ||  |      |  definition: field defined at [9, 7], type=int
+   |  ||  |      `> NoInitialization
+   |  ||  `> ListDeclMethod [List with 0 elements]
+   |  []> [13, 2] DeclClass
+   |  ||  +> [13, 8] Identifier (B)
+   |  ||  |  definition: type defined at [13, 2], type=B
+   |  ||  +> [13, 10] Identifier (A)
+   |  ||  |  definition: type defined at [8, 2], type=A
+   |  ||  +> ListDeclField [List with 0 elements]
+   |  ||  `> ListDeclMethod [List with 0 elements]
+   |  []> [17, 2] DeclClass
+   |  ||  +> [17, 8] Identifier (C)
+   |  ||  |  definition: type defined at [17, 2], type=C
+   |  ||  +> [17, 10] Identifier (B)
+   |  ||  |  definition: type defined at [13, 2], type=B
+   |  ||  +> ListDeclField [List with 1 elements]
+   |  ||  |  []> [18, 7] [visibility=PUBLIC] DeclField
+   |  ||  |      +> [18, 3] Identifier (int)
+   |  ||  |      |  definition: type (builtin), type=int
+   |  ||  |      +> [18, 7] Identifier (y)
+   |  ||  |      |  definition: field defined at [18, 7], type=int
+   |  ||  |      `> NoInitialization
+   |  ||  `> ListDeclMethod [List with 0 elements]
+   |  []> [22, 2] DeclClass
+   |      +> [22, 8] Identifier (D)
+   |      |  definition: type defined at [22, 2], type=D
+   |      +> [builtin] Identifier (Object)
+   |      |  definition: type (builtin), type=Object
+   |      +> ListDeclField [List with 0 elements]
+   |      `> ListDeclMethod [List with 0 elements]
+   `> [24, 2] Main
+      +> ListDeclVar [List with 2 elements]
+      |  []> [25, 4] DeclVar
+      |  ||  +> [25, 2] Identifier (C)
+      |  ||  |  definition: type defined at [17, 2], type=C
+      |  ||  +> [25, 4] Identifier (f)
+      |  ||  |  definition: variable defined at [25, 4], type=C
+      |  ||  `> NoInitialization
+      |  []> [26, 6] DeclVar
+      |      +> [26, 2] Identifier (int)
+      |      |  definition: type (builtin), type=int
+      |      +> [26, 6] Identifier (z)
+      |      |  definition: variable defined at [26, 6], type=int
+      |      `> NoInitialization
+      `> ListInst [List with 1 elements]
+         []> [27, 2] Assign
+             type: int
+             +> [27, 2] Selection
+             |  type: int
+             |  +> [27, 2] Identifier (f)
+             |  |  definition: variable defined at [25, 4], type=C
+             |  `> [27, 4] Identifier (x)
+             |     definition: field defined at [9, 7], type=int
+             `> [27, 8] Identifier (z)
+                definition: variable defined at [26, 6], type=int

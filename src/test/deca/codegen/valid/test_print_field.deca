@@ -1,0 +1,18 @@
+// Description:
+//    Declaration de champ dans une classe
+//
+// Resultats:
+//  2
+//
+//
+// Historique:
+//    cree le 23/01/2017
+
+class A{
+    int x = 2;
+  }
+{
+A test = new A();
+print(test.x);
+
+}

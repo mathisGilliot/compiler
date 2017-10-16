@@ -1,0 +1,8 @@
+// Description :
+//introduction d'un type inconnu via une déclaration
+//
+// Resultats : 
+// 	Erreur contextuelle 
+//  Ligne 8 : "le type ui n'existe pas! (Règle (0.2))" 
+
+{ui x;}

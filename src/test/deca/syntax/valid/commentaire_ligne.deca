@@ -1,0 +1,12 @@
+// Description:
+//    Programme qui test si les commentaires fonctionnent
+//
+// Resultats:
+//    ca marche
+//
+// Historique:
+//    cree le 13/01/2017
+{
+print("ca marche");
+// print("je suis en commentaire");
+}

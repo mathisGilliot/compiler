@@ -1,0 +1,10 @@
+// Description :
+// test d'un moins unaire sur une chaîne de caractères
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Moins unaire sur un objet de type string impossible (règle 3.37)
+
+{
+  -"Hello";
+}

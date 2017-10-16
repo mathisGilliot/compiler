@@ -1,0 +1,21 @@
+// Description:
+//    test simple d'un if dans un if faux
+//
+// Resultats:
+//  1
+//
+//Affiché: rien
+// Historique:
+//    cree le 18/01/2017
+{
+  int x = 0;
+  if (x == 0){
+    if (x > 10) {
+       x = 2;
+    }
+     else {
+      x = 1;
+      }
+  }
+	print(x);
+}

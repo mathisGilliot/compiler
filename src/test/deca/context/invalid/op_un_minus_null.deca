@@ -1,0 +1,10 @@
+// Description :
+// test d'un moins unaire sur null
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Moins unaire sur un objet de type null impossible (règle 3.37)
+
+{
+  -null;
+}

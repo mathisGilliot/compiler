@@ -1,0 +1,21 @@
+// Description:
+//    test simple d'un and boolean en init
+//
+// Resultats:
+//  1
+//
+//
+// Historique:
+//    cree le 18/01/2017
+{
+  boolean b = true;
+  boolean p = false;
+  boolean d = (b && p);
+  int x = 0;	
+  if (d){
+    x = 0;
+  }
+  else {
+     x = 1;
+  }
+}

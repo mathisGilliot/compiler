@@ -1,0 +1,8 @@
+// Description:
+//    manque un point virgule
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 8 : "mismatched input '}' expecting {',', ';'}
+
+{ float x }

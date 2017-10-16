@@ -1,0 +1,11 @@
+// Description:
+//    on déclare mal un champ
+//
+// Resultats:
+//   
+
+class A {
+	int a
+	float b;
+	
+}

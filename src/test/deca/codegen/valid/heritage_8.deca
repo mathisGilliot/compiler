@@ -1,0 +1,26 @@
+// Description:
+//    test d'heritage
+//
+// Resultats:
+//    1
+//
+// Historique:
+//    cree le 23/01/2017
+class A {
+	int x = 2;
+	int M(int a) {
+		return a;
+	}
+}
+class B extends A {
+	int y;
+}
+class C extends B {
+	
+}
+{	
+	int b = 0;
+	C c = new C();
+	b = c.M(1);
+	print(b);
+}

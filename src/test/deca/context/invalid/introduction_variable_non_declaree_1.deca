@@ -1,0 +1,8 @@
+// Description :
+//introduction d'une variable non initialisée
+//
+// Resultats : 
+// 	Erreur contextuelle 
+//  Ligne 7 : "x n'a pas été déclarée"
+
+{x;}

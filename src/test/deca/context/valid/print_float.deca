@@ -1,0 +1,9 @@
+// Description :
+// test de l'affichage d'un flottant
+//
+// Résultats :
+// ok
+
+{
+  println(5.0);
+}

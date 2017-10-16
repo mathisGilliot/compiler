@@ -1,0 +1,8 @@
+// Description :
+//introduction du type void via une déclaration
+//
+// Resultats : 
+// 	Erreur contextuelle 
+//  Ligne 8 : "x ne peut pas être de type void (Règle (3.17))"
+
+{void x;}

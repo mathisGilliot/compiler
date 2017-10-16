@@ -1,0 +1,11 @@
+// Description:
+//    on déclare mal une liste de classes
+//
+// Resultats:
+//   
+
+class A {
+}
+class B {
+}
+int e;

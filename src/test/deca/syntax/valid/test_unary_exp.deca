@@ -1,0 +1,13 @@
+// Description:
+//    on teste la règle de unary_exp
+//
+// Resultats:
+//    ok
+
+
+{ 
+  3 * ---3;
+  2 + ----!!1;
+  1 / --!2;
+  1 % !--3;
+ }

@@ -1,0 +1,8 @@
+// Description:
+//    on déclare plusieurs variables sur la même ligne sans les séparer par des virgules
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 8 : "extraneous input 'y' expecting {',', ';'}"
+
+{ int x y ;}

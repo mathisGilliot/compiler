@@ -1,0 +1,14 @@
+// Description:
+//    test soustraction multiple
+//
+// Resultats:
+//    -4.00000e+00
+//
+// Historique:
+//    cree le 13/01/2017
+{
+float x = 0.0;
+float y = 2.0;
+x = x - 2.0 - y;
+print(x);
+}

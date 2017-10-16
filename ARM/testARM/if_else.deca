@@ -1,0 +1,18 @@
+// Description:
+//    test simple d'un if else
+//
+// Resultats:
+//  3
+//
+// Historique:
+//    cree le 14/01/2017
+{
+  int x = 1;
+  if (x > 0){
+    x = 2 + x;
+  }
+  else{
+    x = 1;
+  }
+  print(x);
+}

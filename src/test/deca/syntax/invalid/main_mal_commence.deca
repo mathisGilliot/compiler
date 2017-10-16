@@ -1,0 +1,9 @@
+// Description:
+//    main mal commencé
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 8 : extraneous input '{' expecting {'-', '(', '}', '!', ';', 'false', 'if', 'new', 'null', 'readInt',
+// 'readFloat', 'print', 'println', 'printlnx', 'printx', 'return', 'this', 'true', 'while', IDENT, STRING, INT, FLOAT}
+
+{{}

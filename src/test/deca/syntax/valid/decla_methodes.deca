@@ -1,0 +1,31 @@
+// Description:
+//    on déclare plusieurs méthodes au sein d'une classe
+//
+// Resultats:
+//   ok
+
+class A {
+	void M ( ) {
+	float d;
+	}
+	int F (int a) {
+	int b;
+	int a;
+	}
+	float G (boolean b, int d) {
+	}
+	boolean D (float k, int g, float f) {
+	}
+}
+class B extends A {
+	int Z () {
+	boolean b;
+	}
+	
+	void M ( ) {
+	float j;
+	}
+	int K ( ) {
+	int p ;
+	}	
+}

@@ -1,0 +1,10 @@
+/* Test des opérations + et - */
+
+{
+  int a;
+  int b = 10;
+  int c = 5 + 1;
+  int d = b + c;
+  a = b + 2;
+  a = a - 1;
+}

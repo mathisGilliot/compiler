@@ -1,0 +1,35 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 1 elements]
+      |  []> [8, 6] DeclVar
+      |      +> [8, 2] Identifier (int)
+      |      |  definition: type (builtin), type=int
+      |      +> [8, 6] Identifier (x)
+      |      |  definition: variable defined at [8, 6], type=int
+      |      `> [8, 8] Initialization
+      |         `> [8, 10] Int (0)
+      |            type: int
+      `> ListInst [List with 1 elements]
+         []> [9, 2] While
+             +> [9, 9] LowerOrEqual
+             |  type: boolean
+             |  +> [9, 9] Identifier (x)
+             |  |  definition: variable defined at [8, 6], type=int
+             |  `> [9, 14] Int (1)
+             |     type: int
+             `> ListInst [List with 2 elements]
+                []> [10, 4] Println
+                ||  `> ListExpr [List with 1 elements]
+                ||     []> [10, 12] Identifier (x)
+                ||         definition: variable defined at [8, 6], type=int
+                []> [11, 4] Assign
+                    type: int
+                    +> [11, 4] Identifier (x)
+                    |  definition: variable defined at [8, 6], type=int
+                    `> [11, 8] Plus
+                       type: int
+                       +> [11, 8] Identifier (x)
+                       |  definition: variable defined at [8, 6], type=int
+                       `> [11, 12] Int (1)
+                          type: int

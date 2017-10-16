@@ -1,0 +1,13 @@
+// Description:
+//    tests simple division
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 21/01/2017
+{
+float x =1.0;
+int y =1;
+print((-x)/y);
+}

@@ -1,0 +1,8 @@
+// Description :
+//introduction d'une variable dont le nom est déjà utilisé
+//
+// Resultats : Erreur contextuelle 
+//  Ligne 7 : "le nom de variable y est déjà utilisé"
+
+{int y;
+int y = 0;}

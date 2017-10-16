@@ -1,0 +1,11 @@
+// Description :
+// on déclare un float et on lui assigne une opération entière
+//
+// Résultats :
+// ok
+
+{
+  int x;
+  float y;
+  y = -x;
+}

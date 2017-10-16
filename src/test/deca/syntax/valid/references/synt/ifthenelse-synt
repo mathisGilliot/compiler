@@ -1,0 +1,23 @@
+`> [1, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [1, 0] Main
+      +> ListDeclVar [List with 0 elements]
+      `> ListInst [List with 2 elements]
+         []> [1, 1] IfThenElse
+         ||  +> [1, 5] BooleanLiteral (true)
+         ||  +> ListInst [List with 1 elements]
+         ||  |  []> [2, 9] Println
+         ||  |      `> ListExpr [List with 1 elements]
+         ||  |         []> [2, 9] StringLiteral (if)
+         ||  `> ListInst [List with 1 elements]
+         ||     []> IfThenElse
+         ||         +> [4, 10] BooleanLiteral (false)
+         ||         +> ListInst [List with 1 elements]
+         ||         |  []> [5, 10] Println
+         ||         |      `> ListExpr [List with 1 elements]
+         ||         |         []> [5, 10] StringLiteral (elsif)
+         ||         `> ListInst [List with 1 elements]
+         ||            []> [8, 10] Println
+         ||                `> ListExpr [List with 1 elements]
+         ||                   []> [8, 10] StringLiteral (else)
+         []> NoOperation

@@ -1,0 +1,27 @@
+// Description : test de l'appel d'une méthode sans this dans main
+//
+// Résultats :
+//    Ligne 26 :
+
+class A {
+  protected int x ;
+    void setX(int x) {
+    this.x = x ;
+  }
+  int getX() {
+    return x ;
+  }
+  void init() {
+    x = 0 ;
+  }
+}
+class B extends A {
+  int y ;
+  void init() {
+    setX(0) ;
+    y = 0 ;
+  }
+}
+{
+  setX(0);
+}

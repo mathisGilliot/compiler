@@ -1,0 +1,61 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 1 elements]
+      |  []> [8, 6] DeclVar
+      |      +> [8, 2] Identifier (int)
+      |      |  definition: type (builtin), type=int
+      |      +> [8, 6] Identifier (x)
+      |      |  definition: variable defined at [8, 6], type=int
+      |      `> NoInitialization
+      `> ListInst [List with 5 elements]
+         []> [9, 2] Assign
+         ||  type: int
+         ||  +> [9, 2] Identifier (x)
+         ||  |  definition: variable defined at [8, 6], type=int
+         ||  `> [9, 6] Divide
+         ||     type: int
+         ||     +> [9, 6] Int (1)
+         ||     |  type: int
+         ||     `> [9, 10] Int (1)
+         ||        type: int
+         []> [10, 2] Assign
+         ||  type: int
+         ||  +> [10, 2] Identifier (x)
+         ||  |  definition: variable defined at [8, 6], type=int
+         ||  `> [10, 6] Minus
+         ||     type: int
+         ||     +> [10, 6] Int (1)
+         ||     |  type: int
+         ||     `> [10, 10] Int (1)
+         ||        type: int
+         []> [11, 2] Assign
+         ||  type: int
+         ||  +> [11, 2] Identifier (x)
+         ||  |  definition: variable defined at [8, 6], type=int
+         ||  `> [11, 6] Modulo
+         ||     type: int
+         ||     +> [11, 6] Int (1)
+         ||     |  type: int
+         ||     `> [11, 10] Int (1)
+         ||        type: int
+         []> [12, 2] Assign
+         ||  type: int
+         ||  +> [12, 2] Identifier (x)
+         ||  |  definition: variable defined at [8, 6], type=int
+         ||  `> [12, 6] Multiply
+         ||     type: int
+         ||     +> [12, 6] Int (1)
+         ||     |  type: int
+         ||     `> [12, 10] Int (1)
+         ||        type: int
+         []> [13, 2] Assign
+             type: int
+             +> [13, 2] Identifier (x)
+             |  definition: variable defined at [8, 6], type=int
+             `> [13, 6] Plus
+                type: int
+                +> [13, 6] Int (1)
+                |  type: int
+                `> [13, 10] Int (1)
+                   type: int

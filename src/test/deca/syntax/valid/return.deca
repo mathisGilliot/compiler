@@ -1,0 +1,12 @@
+// Description:
+//    on retourne une exp
+//
+// ok
+
+
+{ return 1;
+  return 1+1;
+  return "oh";
+  return 2*3;
+  return 1-1;
+  return true;}

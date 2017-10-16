@@ -1,0 +1,15 @@
+//Résultat: 1
+
+{
+	boolean x = (1<2); //true
+	boolean y = (2>3); //false
+	int z = 0;
+	if (x || y) {
+	   z = 1;
+	}
+	else {
+	   z = 0;
+	}
+	print (z);
+}
+	   

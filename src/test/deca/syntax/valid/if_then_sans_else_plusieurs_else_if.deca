@@ -1,0 +1,15 @@
+// Description:
+//    if, plusieurs elsif sans else 
+//
+// Resultats:
+//    ok
+
+{ if (true) {
+	3;
+	}
+  else if (false) {
+  2;
+  }
+  else if (true) {
+  1;}
+  }

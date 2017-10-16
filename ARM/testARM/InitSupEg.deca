@@ -1,0 +1,17 @@
+// Description:
+//    test simple d'un SupEq boolean en init
+//
+// Resultats:
+//  ok
+//
+//
+// Historique:
+//    cree le 22/01/2017
+{
+int x =1 ;
+int y = 2;
+boolean b = (y>=x);
+if ( b){
+  print("ok");
+  }
+}

@@ -1,0 +1,12 @@
+// Description :
+// test du not sur un booléen
+//
+// Résultats :
+// ok
+
+{
+  boolean b;
+  b = !true;
+  b = !b;
+  b = !false;
+}

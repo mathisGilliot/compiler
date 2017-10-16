@@ -1,0 +1,45 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 2 elements]
+      |  []> [8, 6] DeclVar
+      |  ||  +> [8, 2] Identifier (int)
+      |  ||  |  definition: type (builtin), type=int
+      |  ||  +> [8, 6] Identifier (x)
+      |  ||  |  definition: variable defined at [8, 6], type=int
+      |  ||  `> NoInitialization
+      |  []> [9, 8] DeclVar
+      |      +> [9, 2] Identifier (float)
+      |      |  definition: type (builtin), type=float
+      |      +> [9, 8] Identifier (y)
+      |      |  definition: variable defined at [9, 8], type=float
+      |      `> NoInitialization
+      `> ListInst [List with 2 elements]
+         []> [10, 2] Assign
+         ||  type: int
+         ||  +> [10, 2] Identifier (x)
+         ||  |  definition: variable defined at [8, 6], type=int
+         ||  `> [10, 6] Plus
+         ||     type: int
+         ||     +> [10, 6] Int (1)
+         ||     |  type: int
+         ||     `> [10, 10] UnaryMinus
+         ||        type: int
+         ||        `> [10, 11] Int (5)
+         ||           type: int
+         []> [11, 2] Assign
+             type: float
+             +> [11, 2] Identifier (y)
+             |  definition: variable defined at [9, 8], type=float
+             `> [11, 6] Minus
+                type: float
+                +> ConvFloat
+                |  type: float
+                |  `> [11, 6] UnaryMinus
+                |     type: int
+                |     `> [11, 7] Identifier (x)
+                |        definition: variable defined at [8, 6], type=int
+                `> [11, 11] UnaryMinus
+                   type: float
+                   `> [11, 12] Float (4.0)
+                      type: float

@@ -1,0 +1,21 @@
+// Description:
+//    test d'un not and boolean en condition
+//
+// Resultats:
+//  ok
+//
+//
+// Historique:
+//    cree le 22/01/2017
+{
+boolean b = true;
+boolean y = false;
+int x = 0;
+if (!(b)&&y){
+  x = 2;
+  }
+else {
+  x = 1;
+  }
+print(x);
+}

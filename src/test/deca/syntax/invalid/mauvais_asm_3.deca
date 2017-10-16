@@ -1,0 +1,9 @@
+// Description:
+//    asm sans type ni ident
+//
+// Resultats:
+//   
+
+class A extends {
+	asm (a);	
+}

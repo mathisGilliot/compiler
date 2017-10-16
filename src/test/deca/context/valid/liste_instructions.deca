@@ -1,0 +1,18 @@
+// Description :
+// test d'une liste d'instructions
+//
+// Résultats :
+// ok
+
+{
+  println("Hello, world!");
+  println("Hello, world!");
+  println("Hello, world!");
+  println("Hello, world!");
+  println("Hello, world!");
+  println("Hello, world!");
+  println("Hello, world!");
+  println("Hello, world!");
+  println("Hello, world!");
+  println("Hello, world!");
+}

@@ -1,0 +1,33 @@
+// Description :
+// Même chose que test_context_incorrect_4.deca: on appelle la méthode M avec un paramètre erroné (un boolean à la place d'un int) qui est un champ de la classe B.
+//
+// Résultats :
+// Erreur contextuelle
+// ligne 32: Affectation à un objet de type int une valeur de type boolean impossible (règle 3.28)
+
+
+  class A {
+  	void M(int a, float b) {
+  	}
+  	
+  }
+  
+  class B extends A {
+  	boolean b;
+  	void G() {
+  	}
+  }
+  
+  class C extends B {
+  	int y ;
+  	void R() {
+  	}
+}
+  class D {
+  }
+
+{
+	C f;
+	int k;
+	f.M(k,f.b);
+}

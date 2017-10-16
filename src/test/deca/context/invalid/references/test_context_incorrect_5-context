@@ -1,0 +1,1 @@
+./../deca/context/invalid/test_context_incorrect_5.deca:32:7: Affectation à un objet de type float une valeur de type boolean impossible (règle 3.28)

@@ -1,0 +1,10 @@
+// Description :
+// test de l'instruction readFloat()
+//
+// Résultats :
+// ok
+
+{
+  float x;
+  x = readFloat();
+}

@@ -1,0 +1,14 @@
+// Description:
+//    Test de la déclaration d'une méthode dans une classe
+//
+// Résultats:
+//    OK
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+  void helloWorld() {
+    println("Hello World !");
+  }
+}

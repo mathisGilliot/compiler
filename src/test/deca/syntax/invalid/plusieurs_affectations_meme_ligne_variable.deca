@@ -1,0 +1,11 @@
+// Description:
+//    on initialise une variable avec plusieurs valeurs différentes sur la même ligne
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 10 : "left-hand side of assignment is not an lvalue"
+
+
+{ 
+  int x = 3 = 4;
+ }

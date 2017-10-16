@@ -1,0 +1,20 @@
+// Description:
+//    test simple d'un eq boolean en init
+//
+// Resultats:
+//  ok
+//
+//
+// Historique:
+//    cree le 22/01/2017
+{
+int x = 0;
+boolean b = (x==0);
+if ( b){
+  x=1;
+  }
+else {
+  x = 2;
+  }
+print(x);
+}

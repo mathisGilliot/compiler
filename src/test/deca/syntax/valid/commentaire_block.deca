@@ -1,0 +1,12 @@
+// Description:
+//    Programme qui test le commentaire de bloc
+//
+// Resultats:
+//    ca marche
+//
+// Historique:
+//    cree le 13/01/2017
+{
+print("ca marche");
+/* print("je suis en commentaire");*/ 
+}

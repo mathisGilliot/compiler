@@ -1,0 +1,14 @@
+// Description:
+//    division par 0
+//
+// Resultats:
+//   renvoie une erreur
+//
+//
+// Historique:
+//    cree le 14/01/2017
+{
+int x;
+x = -999999999 - 999999999 - 999999999;
+print(x);
+}

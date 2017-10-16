@@ -1,0 +1,12 @@
+// Description:
+//    soustraction sans initialisation
+//
+// Resultats:
+//  Erreur
+//
+// Historique:
+//    cree le 13/01/2017
+{
+float x ;
+print(x*1.0);
+}

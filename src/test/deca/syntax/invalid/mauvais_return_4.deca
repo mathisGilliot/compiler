@@ -1,0 +1,8 @@
+// Description:
+//    on retourne printlnx qui n'est pas une exp
+//
+// Resultats:
+// ligne 8: "no viable alternative at input 'printlnx'"
+
+
+{ return printlnx("hey");}

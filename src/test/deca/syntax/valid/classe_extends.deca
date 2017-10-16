@@ -1,0 +1,14 @@
+// Description:
+//    on test extends
+//
+// Resultats:
+//   ok
+
+class A {
+}
+
+class B extends A {
+}
+
+class C extends B{
+}

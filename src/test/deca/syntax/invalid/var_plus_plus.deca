@@ -1,0 +1,10 @@
+// Description:
+//    on essaie d'incrémenter x comme en java
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 8 : "no viable alternative at input '+'"
+
+
+{ int x;
+  x ++;}

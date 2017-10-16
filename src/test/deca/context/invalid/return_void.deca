@@ -1,0 +1,17 @@
+// Description:
+//    Test d'un return dans une méthode de type void
+//
+// Résultats:
+//    Ligne 15 : Une méthode ne peut pas renvoyer un objet de type null (règle 3.24)
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+  void helloWorld() {
+    println("Hello World !");
+  }
+  void helloWorld2() {
+    return this.helloWorld();
+  }
+}

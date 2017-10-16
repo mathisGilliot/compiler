@@ -1,0 +1,19 @@
+// Description:
+//    Test de l'appel d'une méthode dans un main
+//
+// Résultats:
+//    ok
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+    int x;
+    int getX() {
+      return x;
+    }
+}
+{
+    A a;
+    a.getX();
+}

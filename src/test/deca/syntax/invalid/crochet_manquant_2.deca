@@ -1,0 +1,8 @@
+// Description:
+//    crochet fermant manquant dans le main
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 8 : extraneous input '}' expecting {<EOF>, '{', 'class'}
+
+}

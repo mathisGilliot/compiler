@@ -1,0 +1,10 @@
+// Description :
+// test de l'affichage d'une expression de type void
+//
+// Résultats :
+// ok
+
+{
+  int x;
+  println(x = 1);
+}

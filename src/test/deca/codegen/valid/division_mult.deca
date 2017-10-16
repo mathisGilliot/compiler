@@ -1,0 +1,13 @@
+// Description:
+//    test division
+//
+// Resultats:
+//    1.00000e+00
+//
+// Historique:
+//    cree le 13/01/2017
+{
+float x = 10.0;
+x = 20.0 / x / 2.0;
+print(x);
+}

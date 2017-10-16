@@ -1,0 +1,15 @@
+// Description:
+//    mauvaise utilisation du while: deuxième parenthèse manquante
+//
+// Resultats:
+// ligne 10: "mismatched input '{' expecting {'<', '>', '=', '+', '-', '*', '%', '/', '.', ')', '==', '!=', '>=', '<=', '&&', '||', 'instanceof'}"
+
+
+{
+	int x = 0;
+	while (x > 2 {
+	      x = x+1;
+				println(x);
+	      }
+	  println("je suis au bout");    
+}

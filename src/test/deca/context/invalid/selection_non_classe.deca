@@ -1,0 +1,13 @@
+// Description :
+//    Test de la sélection d'un champ sur un objet qui n'est pas une classe 
+//
+// Résultats:
+//    Ligne 12 : 
+//
+// Historique:
+//    créé le 22/01/2017
+
+{
+    int n;
+    n.x;
+}

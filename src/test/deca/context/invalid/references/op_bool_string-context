@@ -1,0 +1,1 @@
+./../deca/context/invalid/op_bool_string.deca:9:2: Opération logique impossible entre des objets de type string et boolean (règle 3.33)

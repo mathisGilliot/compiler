@@ -1,0 +1,12 @@
+//Description :
+//    Test d'un new sur un type non classe
+//
+// Résultats:
+//    Ligne 11 : 
+//
+// Historique:
+//    créé le 21/01/2017
+
+{
+    int n = new int();
+}

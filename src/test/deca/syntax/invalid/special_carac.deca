@@ -1,0 +1,10 @@
+// Description:
+//    tests de programme lexicalement correct (caractere non reconnu)
+//
+// Resultats:
+//    ligne 10 : Erreur, caractere non reconnu
+//
+// Historique:
+//    cree le 10/01/2017
+
+{ 中 ;}

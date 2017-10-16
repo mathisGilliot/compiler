@@ -1,0 +1,1 @@
+./../deca/context/invalid/test_context_incorrect_4.deca:32:5: Affectation à un objet de type int une valeur de type boolean impossible (règle 3.28)

@@ -1,0 +1,10 @@
+// Description :
+// test d'une comparaison entre un booléen et un entier
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Comparaison enre des objets de type boolean et float impossible (règle 3.33)
+
+{
+  true > 1.0;
+}

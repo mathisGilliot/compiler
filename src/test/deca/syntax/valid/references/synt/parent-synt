@@ -1,0 +1,41 @@
+`> [3, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [3, 0] Main
+      +> ListDeclVar [List with 2 elements]
+      |  []> [4, 6] DeclVar
+      |  ||  +> [4, 2] Identifier (int)
+      |  ||  +> Identifier (x)
+      |  ||  `> NoInitialization
+      |  []> [4, 9] DeclVar
+      |      +> [4, 2] Identifier (int)
+      |      +> Identifier (y)
+      |      `> NoInitialization
+      `> ListInst [List with 4 elements]
+         []> [5, 2] Assign
+         ||  +> [5, 2] Identifier (x)
+         ||  `> [5, 6] Plus
+         ||     +> [5, 6] Int (5)
+         ||     `> [5, 10] Multiply
+         ||        +> [5, 10] Int (2)
+         ||        `> [5, 14] Int (3)
+         []> [6, 2] Assign
+         ||  +> [6, 2] Identifier (x)
+         ||  `> [6, 6] Plus
+         ||     +> [6, 6] Multiply
+         ||     |  +> [6, 6] Int (5)
+         ||     |  `> [6, 10] Int (2)
+         ||     `> [6, 14] Int (3)
+         []> [7, 2] Assign
+         ||  +> [7, 2] Identifier (y)
+         ||  `> [7, 6] Multiply
+         ||     +> [7, 6] Int (2)
+         ||     `> [7, 10] Plus
+         ||        +> [7, 11] Identifier (x)
+         ||        `> [7, 15] Int (4)
+         []> [8, 2] Assign
+             +> [8, 2] Identifier (y)
+             `> [8, 6] Plus
+                +> [8, 6] Int (2)
+                `> [8, 10] Multiply
+                   +> [8, 11] Identifier (x)
+                   `> [8, 15] Int (4)

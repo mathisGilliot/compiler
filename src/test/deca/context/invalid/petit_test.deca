@@ -1,0 +1,14 @@
+// Description :
+// test d'une opération arithmétique entre un entier et null
+//
+// Résultats :
+// Erreur contextuelle;
+// 		(règle 3.43)
+
+class A {
+	void M() {
+	}
+}
+{
+  M();
+  }

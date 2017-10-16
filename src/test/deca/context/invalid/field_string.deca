@@ -1,0 +1,13 @@
+// Description:
+//    Test d'une déclaration d'un champ de type void
+//
+// Résultats:
+//    Ligne 12 : le type string n'existe pas! (Règle (0.2))
+//
+// Historique:
+//    créé le 19/01/2017
+
+
+class A {
+   string x;
+}

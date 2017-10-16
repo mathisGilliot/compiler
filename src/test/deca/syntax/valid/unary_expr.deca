@@ -1,0 +1,6 @@
+/* Test de l'opération - unitaire*/
+
+{
+  int x;
+  x = -2;
+}

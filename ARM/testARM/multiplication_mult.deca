@@ -1,0 +1,13 @@
+// Description:
+//    test multiplication multiple
+//
+// Resultats:
+//    8
+//
+// Historique:
+//    cree le 13/01/2017
+{
+int y = 2;
+y = y*y*y;
+print(y);
+}

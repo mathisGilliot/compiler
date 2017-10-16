@@ -1,0 +1,17 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 0 elements]
+      `> ListInst [List with 6 elements]
+         []> [7, 9] Int (1)
+         []> [8, 9] Plus
+         ||  +> [8, 9] Int (1)
+         ||  `> [8, 11] Int (1)
+         []> [9, 9] StringLiteral (oh)
+         []> [10, 9] Multiply
+         ||  +> [10, 9] Int (2)
+         ||  `> [10, 11] Int (3)
+         []> [11, 9] Minus
+         ||  +> [11, 9] Int (1)
+         ||  `> [11, 11] Int (1)
+         []> [12, 9] BooleanLiteral (true)

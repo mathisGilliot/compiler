@@ -1,0 +1,10 @@
+// Description :
+// test de plusieurs ConvFloat dans la même instruction
+//
+// Résultats :
+// ok
+
+{
+  float y;
+  y = 1 + 2 + 3.0 + 4;
+}

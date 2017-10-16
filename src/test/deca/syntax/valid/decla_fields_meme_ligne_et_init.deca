@@ -1,0 +1,10 @@
+// Description:
+//    on déclare des champs au sein d'une classe (sur une même ligne) et on les initialise
+//
+// Resultats:
+//   ok
+
+class A {
+	int a=0, b=2, c=2;
+	boolean d=true,e=false,f=true;
+}

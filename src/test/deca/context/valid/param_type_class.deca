@@ -1,0 +1,19 @@
+// Description:
+//    Test de la déclaration d'un paramètre de type class dans une méthode
+//
+// Résultats:
+//    ok
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+  void helloWorld(B b) {
+    println("Hello World !");
+  }
+}
+class B {
+  void helloWorld(A a, B b) {
+    println("Hello World !");
+  }
+}

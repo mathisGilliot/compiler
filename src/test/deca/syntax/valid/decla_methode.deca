@@ -1,0 +1,10 @@
+// Description:
+//    on déclare une méthode au sein d'une classe
+//
+// Resultats:
+//   ok
+
+class A {
+	void M ( ) {
+	}
+}

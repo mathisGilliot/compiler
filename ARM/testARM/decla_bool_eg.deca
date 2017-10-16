@@ -1,0 +1,17 @@
+// Description:
+//    test simple d'une decla de eq dans un bool
+//
+// Resultats:
+//  1
+//
+//
+// Historique:
+//    cree le 18/01/2017
+{
+  int a = 0;
+  boolean x = (a==a);
+  if (x) {
+     print(1);
+     }
+  
+}

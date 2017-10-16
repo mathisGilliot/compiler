@@ -1,0 +1,7 @@
+// Description :
+//initialisation d'une variable de type float avec une variable de type int
+//
+// Resultats : 
+// 	ok
+
+{float x = 3;}

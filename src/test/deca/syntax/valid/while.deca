@@ -1,0 +1,16 @@
+// Description:
+//    Programme minimaliste utilisant while.
+//
+// Resultats:
+//    1
+//		2
+// Historique:
+//    cree le 01/01/2017
+{
+	int x = 0;
+	while (x > 2) {
+	      x = x+1;
+				println(x);
+	      }
+	  println("je suis au bout");    
+}

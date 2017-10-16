@@ -1,0 +1,10 @@
+// Description :
+// test de instanceof
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Opération instanceof impossible entre des objets de type null et int(règle 3.40)
+
+{
+   null instanceof int;
+}

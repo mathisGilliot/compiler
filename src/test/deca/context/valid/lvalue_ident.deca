@@ -1,0 +1,19 @@
+// Description :
+//    Test de lvalue_ident de nature valable
+//
+// Résultats:
+//    OK
+//
+// Historique:
+//    créé le 22/01/2017
+
+class A {
+    int x;
+    void setX(int x) {
+    	 int a;
+	 a = x;
+	 x = a;
+    	 this.x = a;
+    }
+}
+

@@ -1,0 +1,20 @@
+// Description:
+//    Test de la selection d'un champ protégé
+//
+// Résultats:
+//    OK
+//
+// Historique:
+//    créé le 22/01/2017
+
+class A {
+    protected int x;
+}
+class B extends A {
+    int getX() {
+    	C c; 
+	return c.x; // C s/s-type de B et B s/s-type de A
+    }     
+}
+class C extends B {
+}

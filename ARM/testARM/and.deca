@@ -1,0 +1,21 @@
+// Description:
+//    test simple d'un &&
+//
+// Resultats:
+//  1
+//
+//affiché: okoups
+// Historique:
+//    cree le 14/01/2017
+{
+  int x = 2 ;
+  int y = 0;
+
+  if (x < 3 && y == 0){
+    x=1;
+  } else {
+      x=0;
+      
+  }
+  print(x);
+}

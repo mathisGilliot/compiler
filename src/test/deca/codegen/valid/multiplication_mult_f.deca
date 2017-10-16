@@ -1,0 +1,13 @@
+// Description:
+//    test multiplication multiple
+//
+// Resultats:
+//    8.00000e+00
+//
+// Historique:
+//    cree le 13/01/2017
+{
+float y = 2.0;
+y = y*y*y;
+print(y);
+}

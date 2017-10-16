@@ -1,0 +1,1 @@
+./../deca/context/invalid/op_exact_cmp_int_bool.deca:9:2: Comparaison entre des objets de type int et boolean impossible (règle 3.33)

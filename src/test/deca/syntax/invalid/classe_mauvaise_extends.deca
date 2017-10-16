@@ -1,0 +1,8 @@
+// Description:
+//    on déclare une classe avec un mauvais extends 
+//
+// Resultats:
+//   
+
+class A extends "oui"{
+}

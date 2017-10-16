@@ -1,0 +1,10 @@
+// Description :
+// test de l'affichage d'une variable
+//
+// Résultats :
+// ok
+
+{
+  int x = 2;
+  println(x);
+}

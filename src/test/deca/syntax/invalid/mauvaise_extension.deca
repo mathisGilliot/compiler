@@ -1,0 +1,9 @@
+// Description:
+//    A hérite de plusieurs classes 
+//
+// Resultats:
+//   
+
+class A extends B C{
+	
+}

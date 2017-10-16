@@ -1,0 +1,16 @@
+// Description:
+//    Test d'un this dans un main
+//
+// Résultats:
+//    Ligne 15 :
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+    int x;
+}
+{
+    A a = new A();
+    this.equals(a);
+}

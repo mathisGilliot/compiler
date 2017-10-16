@@ -1,0 +1,7 @@
+// Description :
+// test d'un main sans instruction ni déclaration
+//
+// Résultats :
+// ok
+
+{}

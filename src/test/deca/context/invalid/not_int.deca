@@ -1,0 +1,11 @@
+// Description :
+// test de not sur un entier
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 10 : Négation sur un objet de type int impossible (règle 3.37)
+
+{
+  int x = 1;
+  x = !x;
+}

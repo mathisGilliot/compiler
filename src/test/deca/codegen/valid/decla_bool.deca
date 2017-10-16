@@ -1,0 +1,15 @@
+// Description:
+//    test simple d'un if dans un if
+//
+// Resultats:
+//  ok
+//
+//
+// Historique:
+//    cree le 18/01/2017
+{
+  boolean x = true;
+  if (x) {
+     print("ok");
+}
+}

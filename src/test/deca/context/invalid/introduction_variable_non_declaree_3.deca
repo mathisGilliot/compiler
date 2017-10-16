@@ -1,0 +1,9 @@
+// Description :
+//introduction d'une variable non initialisée via une affectation sur une variable déclarée avec une opération comportant une v.n.d.
+//
+// Resultats : 
+// 	Erreur contextuelle 
+//  Ligne 9 : "x n'a pas été déclarée"
+
+{int y;
+ y = 1+x;}

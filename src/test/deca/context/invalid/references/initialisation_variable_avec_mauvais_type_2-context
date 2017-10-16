@@ -1,0 +1,1 @@
+./../deca/context/invalid/initialisation_variable_avec_mauvais_type_2.deca:8:11: Affectation à un objet de type float une valeur de type boolean impossible (règle 3.28)

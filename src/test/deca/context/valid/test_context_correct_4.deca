@@ -1,0 +1,32 @@
+// Description :
+// Même chose que test_context_correct_3.deca sauf qu'on met des paramètres en entrée de M
+//
+// Résultats :
+// ok
+
+
+  class A {
+  	void M(int a, float b) {
+  	}
+  	
+  }
+  
+  class B extends A {
+  	void G() {
+  	}
+  }
+  
+  class C extends B {
+  	int y ;
+  	void R() {
+  	}
+}
+  class D {
+  }
+
+{
+	C f;
+	int a;
+	float b;
+	f.M(a,b);
+}

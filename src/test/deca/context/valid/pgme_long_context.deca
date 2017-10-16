@@ -1,0 +1,39 @@
+// Description:
+//    exemple de programme deca pour vérifier la validité de la syntaxe contextuelle
+//
+// Resultats:
+//   ok
+
+class A {
+	void M ( ) {
+	float d;
+	}
+	
+	int F (int a) {
+	}
+	
+	int b;
+	
+	boolean D (float k, int g, float f) {
+	}
+}
+class B extends A {
+	float e;
+	int Z () {
+	boolean b;
+	}
+	
+	void M ( ) {
+	float j;
+	}
+	
+	int K ( ) {
+	int p ;
+	}	
+}
+
+{
+	int b;
+	b=2;
+	
+	}

@@ -1,0 +1,11 @@
+// Description :
+// test d'égalité avec null
+//
+// Résultats :
+// ok
+
+{
+  boolean b;
+  b = null == null;
+  b = null != null;
+}

@@ -1,0 +1,8 @@
+// Description:
+//    plusieurs expressions non séparées par des points-virgules
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 8 : "extraneous input 'true' expecting {'<', '>', '=', '+', '-', '*', '%', '/', '.', ';', '==', '!=', '>=', '<=', '&&', '||', 'instanceof'}"
+
+{ 2+3
+  true;}

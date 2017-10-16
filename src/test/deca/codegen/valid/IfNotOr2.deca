@@ -1,0 +1,19 @@
+// Description:
+//    test d'un not or boolean en condition
+//
+// Resultats:
+//  ok
+//
+//
+// Historique:
+//    cree le 22/01/2017
+{
+boolean b = true;
+boolean y = false;
+if (!(b)||y){
+  print("oups");
+  }
+else {
+  print("ok");
+  }
+}

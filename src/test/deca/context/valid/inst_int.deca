@@ -1,0 +1,9 @@
+// Description :
+// test d'une expression entière
+//
+// Résultats :
+// ok
+
+{
+  5;
+}

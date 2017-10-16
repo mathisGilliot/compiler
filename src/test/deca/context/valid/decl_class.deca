@@ -1,0 +1,12 @@
+// Description:
+//    Test d'une déclaration de classe
+//
+// Résultats:
+//    OK
+//
+// Historique:
+//    créé le 19/01/2017
+
+
+class A {
+}

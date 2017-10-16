@@ -1,0 +1,8 @@
+// Description :
+//initialisation d'une variable avec une variable non initialisée
+//
+// Resultats : 
+// 	ok: une valeur non initialisée est mise à 0 par défaut.
+
+{int y;
+int x = y;}

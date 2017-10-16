@@ -1,0 +1,18 @@
+// Description:
+//    overflow par div
+//
+// Resultats:
+//  erreur
+//
+// Historique:
+//    cree le 23/01/2017
+
+class A{
+  float div(float x,float y){
+    return x/y;
+  }
+}
+{
+A test = new A();
+print(test.div(299999999999999999999999999999999999999.0,0.000001));
+}

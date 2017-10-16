@@ -1,0 +1,10 @@
+// Description:
+//    on initialise mal un champ
+//
+// Resultats:
+//   ok
+
+class A {
+	int a = 3 = 2;
+	
+}

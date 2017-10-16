@@ -1,0 +1,19 @@
+// Description:
+//    Test d'une déclaration de champs et de méthodes dans une classe
+//
+// Résultats:
+//    OK
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+  int x;
+  int getX() {
+    return x;
+  }
+  int getZ() {
+    return z;
+  }
+  int z;
+}

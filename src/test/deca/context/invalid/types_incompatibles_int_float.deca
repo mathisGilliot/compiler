@@ -1,0 +1,11 @@
+// Description :
+// test de l'affectation de types différents incompatibles
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 10 : Affectation à un objet de type int une valeur de type float impossible (règle 3.28)
+
+{
+  int i;
+  i = 5.0;
+}

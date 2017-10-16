@@ -1,0 +1,8 @@
+{
+	int x = 2;
+	if (x) {
+	   println("Erreur 1");
+	} else {
+	   println("Erreur 2");
+	}
+}

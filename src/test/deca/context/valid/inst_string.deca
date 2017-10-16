@@ -1,0 +1,9 @@
+// Description :
+// test d'une chaîne de caractères
+//
+// Résultats :
+// ok
+
+{
+  "Hello";
+}

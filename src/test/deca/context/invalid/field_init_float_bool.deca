@@ -1,0 +1,13 @@
+// Description:
+//    Test d'une déclaration d'un champ de type float initialisé avec un booléen
+//
+// Résultats:
+//    Ligne 12 : Affectation à un objet de type float une valeur de type boolean impossible (règle 3.28)
+//
+// Historique:
+//    créé le 21/01/2017
+
+
+class A {
+  float x = true;
+}

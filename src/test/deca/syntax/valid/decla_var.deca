@@ -1,0 +1,12 @@
+// Description:
+//    Programme qui declare un entier
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 13/01/2017
+{
+   int x = 2*3*4*5;
+   println(x) ;
+}

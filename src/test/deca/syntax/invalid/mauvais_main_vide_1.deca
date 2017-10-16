@@ -1,0 +1,8 @@
+// Description:
+//    main vide suivi d'un point-virgule
+//
+// Resultats:
+// ligne 8:   "extraneous input ';' expecting <EOF>"
+
+
+{ };

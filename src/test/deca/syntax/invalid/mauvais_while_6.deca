@@ -1,0 +1,15 @@
+// Description:
+//    mauvaise utilisation du while: autre chose qu'une inst dans les crochets
+//
+// Resultats:
+// ligne 10: "extraneous input 'x' expecting {'<', '>', '=', '+', '-', '*', '%', '/', '.', ';', '==', '!=', '>=', '<=', '&&', '||', 'instanceof'}"
+
+
+{
+	int x = 0;
+	while (x > 2) {
+	      x = x+1;
+				int x;
+	      }
+	  println("je suis au bout");    
+}

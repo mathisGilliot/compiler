@@ -1,0 +1,7 @@
+// Description :
+//introduction d'une variable avec un nom de type
+//
+// Resultats : 
+// ok
+
+{int int;}

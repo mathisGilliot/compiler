@@ -1,0 +1,11 @@
+class A {
+      int x;
+      int getX() {
+      	  return x;
+      }
+}
+class B extends A {
+      int getX(int a) {
+      	  return x;
+      }
+}

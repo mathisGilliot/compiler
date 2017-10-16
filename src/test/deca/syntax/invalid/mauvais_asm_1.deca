@@ -1,0 +1,9 @@
+// Description:
+//    asm avec autre chose que mutli_line_string 
+//
+// Resultats:
+//   
+
+class A extends {
+	int F asm (a);	
+}

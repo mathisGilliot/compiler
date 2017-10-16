@@ -1,0 +1,13 @@
+// Description:
+//    test addition multiple
+//
+// Resultats:
+//    4.00000e+00
+//
+// Historique:
+//    cree le 13/01/2017
+{
+float x = 0.0;
+x = 2.0 + x + 2.0;
+print(x);
+}

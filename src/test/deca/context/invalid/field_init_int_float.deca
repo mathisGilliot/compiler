@@ -1,0 +1,13 @@
+// Description:
+//    Test d'une déclaration d'un champ de type int initialisé avec un flottant
+//
+// Résultats:
+//    Ligne 12 : Affectation à un objet de type int une valeur de type float impossible (règle 3.28)
+//
+// Historique:
+//    créé le 21/01/2017
+
+
+class A {
+  int x = 2.0;
+}

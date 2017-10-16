@@ -1,0 +1,15 @@
+// Description:
+//    test simple d'un not boolean en init
+//
+// Resultats:
+//  ok
+//
+//
+// Historique:
+//    cree le 22/01/2017
+{
+boolean b = !(false);
+if ( b){
+  print("ok");
+  }
+}

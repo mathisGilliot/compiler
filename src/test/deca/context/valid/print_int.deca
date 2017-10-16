@@ -1,0 +1,9 @@
+// Description :
+// test de l'affichage d'un entier
+//
+// Résultats :
+// ok
+
+{
+  println(5);
+}

@@ -1,0 +1,11 @@
+// Description:
+//    Programme minimaliste utilisant readInt.
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 13/01/2017
+{
+  int x = readFloat();
+}

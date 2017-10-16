@@ -1,0 +1,1 @@
+./../deca/context/invalid/op_cmp_int_string.deca:9:2: Comparaison entre des objets de type int et string impossible (règle 3.33)

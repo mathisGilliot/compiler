@@ -1,0 +1,14 @@
+// Description :
+// test d'opérations binaires sur des entiers
+//
+// Résultats :
+// ok
+
+{
+  int x;
+  x = 1 / 1;
+  x = 1 - 1;
+  x = 1 % 1;
+  x = 1 * 1;
+  x = 1 + 1;
+}

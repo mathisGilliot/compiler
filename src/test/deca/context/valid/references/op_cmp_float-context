@@ -1,0 +1,79 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 2 elements]
+      |  []> [8, 10] DeclVar
+      |  ||  +> [8, 2] Identifier (boolean)
+      |  ||  |  definition: type (builtin), type=boolean
+      |  ||  +> [8, 10] Identifier (b)
+      |  ||  |  definition: variable defined at [8, 10], type=boolean
+      |  ||  `> NoInitialization
+      |  []> [9, 8] DeclVar
+      |      +> [9, 2] Identifier (float)
+      |      |  definition: type (builtin), type=float
+      |      +> [9, 8] Identifier (x)
+      |      |  definition: variable defined at [9, 8], type=float
+      |      `> [9, 10] Initialization
+      |         `> [9, 12] Float (1.0)
+      |            type: float
+      `> ListInst [List with 6 elements]
+         []> [10, 2] Assign
+         ||  type: boolean
+         ||  +> [10, 2] Identifier (b)
+         ||  |  definition: variable defined at [8, 10], type=boolean
+         ||  `> [10, 6] Equals
+         ||     type: boolean
+         ||     +> [10, 6] Identifier (x)
+         ||     |  definition: variable defined at [9, 8], type=float
+         ||     `> [10, 11] Float (1.0)
+         ||        type: float
+         []> [11, 2] Assign
+         ||  type: boolean
+         ||  +> [11, 2] Identifier (b)
+         ||  |  definition: variable defined at [8, 10], type=boolean
+         ||  `> [11, 6] NotEquals
+         ||     type: boolean
+         ||     +> [11, 6] Identifier (x)
+         ||     |  definition: variable defined at [9, 8], type=float
+         ||     `> [11, 11] Float (2.0)
+         ||        type: float
+         []> [12, 2] Assign
+         ||  type: boolean
+         ||  +> [12, 2] Identifier (b)
+         ||  |  definition: variable defined at [8, 10], type=boolean
+         ||  `> [12, 6] Lower
+         ||     type: boolean
+         ||     +> [12, 6] Identifier (x)
+         ||     |  definition: variable defined at [9, 8], type=float
+         ||     `> [12, 10] Float (2.0)
+         ||        type: float
+         []> [13, 2] Assign
+         ||  type: boolean
+         ||  +> [13, 2] Identifier (b)
+         ||  |  definition: variable defined at [8, 10], type=boolean
+         ||  `> [13, 6] Greater
+         ||     type: boolean
+         ||     +> [13, 6] Identifier (x)
+         ||     |  definition: variable defined at [9, 8], type=float
+         ||     `> [13, 10] Float (2.0)
+         ||        type: float
+         []> [14, 2] Assign
+         ||  type: boolean
+         ||  +> [14, 2] Identifier (b)
+         ||  |  definition: variable defined at [8, 10], type=boolean
+         ||  `> [14, 6] LowerOrEqual
+         ||     type: boolean
+         ||     +> [14, 6] Identifier (x)
+         ||     |  definition: variable defined at [9, 8], type=float
+         ||     `> [14, 11] Float (2.0)
+         ||        type: float
+         []> [15, 2] Assign
+             type: boolean
+             +> [15, 2] Identifier (b)
+             |  definition: variable defined at [8, 10], type=boolean
+             `> [15, 6] GreaterOrEqual
+                type: boolean
+                +> [15, 6] Identifier (x)
+                |  definition: variable defined at [9, 8], type=float
+                `> [15, 11] Float (2.0)
+                   type: float

@@ -1,0 +1,14 @@
+// Description :
+// décla de 2 classes
+//
+// Résultats :
+// 
+
+
+	class A {
+	int b;
+	}
+	class B {
+	float c;
+	}
+

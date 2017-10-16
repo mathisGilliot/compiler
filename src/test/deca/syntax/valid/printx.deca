@@ -1,0 +1,12 @@
+// Description:
+//    Programme qui print un int en hexa
+//
+// Resultats:
+//    D
+//
+// Historique:
+//    cree le 13/01/2017
+{
+printx(13);
+printx();
+}

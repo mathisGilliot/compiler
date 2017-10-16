@@ -1,0 +1,14 @@
+// Description:
+//    on test extends
+//
+// Resultats:
+//   ok
+
+class B {
+  int x = 2;
+
+  int testMethod(int x){
+    x = x + 2;
+    return x;
+  }
+}

@@ -1,0 +1,11 @@
+// Description:
+//    Programme minimaliste utilisant print.
+//
+// Resultats:
+//    56546
+//
+// Historique:
+//    cree le 13/01/2017
+{
+        print(56546);
+}

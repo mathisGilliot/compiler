@@ -1,0 +1,10 @@
+// Description :
+// test de not sur une chaîne de caractères
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Négation sur un objet de type string impossible (règle 3.37)
+
+{
+  !"Hello";
+}

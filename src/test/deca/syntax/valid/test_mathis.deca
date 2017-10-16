@@ -1,0 +1,9 @@
+class A {
+  int afficher() {
+    println("Magie");
+    return 1;
+  }
+}
+{
+  A a;
+}

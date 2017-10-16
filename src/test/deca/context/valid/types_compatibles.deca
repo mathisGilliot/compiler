@@ -1,0 +1,10 @@
+// Description :
+// test de l'affectation de types différents compatibles
+//
+// Résultats :
+// ok
+
+{
+  float f;
+  f = 5;
+}

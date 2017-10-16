@@ -1,0 +1,11 @@
+// Description:
+//    test multiplication
+//
+// Resultats:
+//  0x1.19999ap+1
+//
+// Historique:
+//    cree le 19/01/2017
+{
+	printlnx(2.2);
+}

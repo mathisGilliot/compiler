@@ -1,0 +1,22 @@
+'{': [@0,175:175='{',<13>,10:0]
+DEBUG fr.ensimag.deca.syntax.AbstractDecaLexer.findFile(AbstractDecaLexer.java:172) - Using local file ./../deca/syntax/valid/hello_world.deca
+'{': [@1,0:0='{',<13>,1:0]
+'println': [@2,6:12='println',<35>,2:4]
+'(': [@3,13:13='(',<11>,2:11]
+STRING: [@4,14:26='Hello World',<47>,2:12]
+')': [@5,27:27=')',<12>,2:25]
+';': [@6,28:28=';',<16>,2:26]
+'}': [@7,30:30='}',<14>,3:0]
+DEBUG fr.ensimag.deca.syntax.AbstractDecaLexer.nextToken(AbstractDecaLexer.java:266) - End of file, poping include stack
+';': [@8,204:204=';',<16>,11:27]
+DEBUG fr.ensimag.deca.syntax.AbstractDecaLexer.findFile(AbstractDecaLexer.java:172) - Using local file ./../deca/syntax/valid/hello_world2.deca
+'{': [@9,158:158='{',<13>,9:0]
+'println': [@10,168:174='println',<35>,10:8]
+'(': [@11,175:175='(',<11>,10:15]
+STRING: [@12,176:193='Hello World 2!!!',<47>,10:16]
+')': [@13,194:194=')',<12>,10:34]
+';': [@14,195:195=';',<16>,10:35]
+'}': [@15,197:197='}',<14>,11:0]
+DEBUG fr.ensimag.deca.syntax.AbstractDecaLexer.nextToken(AbstractDecaLexer.java:266) - End of file, poping include stack
+';': [@16,234:234=';',<16>,12:28]
+'}': [@17,236:236='}',<14>,13:0]

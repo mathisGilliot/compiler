@@ -1,0 +1,13 @@
+// Description:
+//    Test d'une déclaration d'un champ de type void
+//
+// Résultats:
+//    Ligne 12 : type = void (Règle (2.5))
+//
+// Historique:
+//    créé le 19/01/2017
+
+
+class A {
+  void x;
+}

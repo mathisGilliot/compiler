@@ -1,0 +1,24 @@
+`> [11, 0] Program
+   +> ListDeclClass [List with 1 elements]
+   |  []> [11, 0] DeclClass
+   |      +> [11, 6] Identifier (A)
+   |      |  definition: type defined at [11, 0], type=A
+   |      +> [builtin] Identifier (Object)
+   |      |  definition: type (builtin), type=Object
+   |      +> ListDeclField [List with 2 elements]
+   |      |  []> [12, 8] [visibility=PUBLIC] DeclField
+   |      |  ||  +> [12, 2] Identifier (float)
+   |      |  ||  |  definition: type (builtin), type=float
+   |      |  ||  +> [12, 8] Identifier (x)
+   |      |  ||  |  definition: field defined at [12, 8], type=float
+   |      |  ||  `> NoInitialization
+   |      |  []> [13, 8] [visibility=PUBLIC] DeclField
+   |      |      +> [13, 2] Identifier (float)
+   |      |      |  definition: type (builtin), type=float
+   |      |      +> [13, 8] Identifier (y)
+   |      |      |  definition: field defined at [13, 8], type=float
+   |      |      `> [13, 10] Initialization
+   |      |         `> [13, 12] Float (1.0)
+   |      |            type: float
+   |      `> ListDeclMethod [List with 0 elements]
+   `> EmptyMain

@@ -1,0 +1,14 @@
+// Description:
+//    test simple d'un modu
+//
+// Resultats:
+//  1
+//
+//
+// Historique:
+//    cree le 14/01/2017
+{
+  int x ;
+  x = 10 % 3;
+    print(x);
+}

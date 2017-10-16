@@ -1,0 +1,15 @@
+// Description:
+//    dereferencement null
+//
+// Resultats:
+//  erreur
+//
+// Historique:
+//    cree le 23/01/2017
+
+class A{
+  }
+{
+A null = new A();
+print("ok");
+} 

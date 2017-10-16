@@ -1,0 +1,1 @@
+./../deca/context/invalid/op_arith_bool_float.deca:9:2: Opération arithmétique entre des objets de type boolean et float impossible (règle 3.37)

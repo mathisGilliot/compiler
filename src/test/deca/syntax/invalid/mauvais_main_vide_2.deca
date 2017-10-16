@@ -1,0 +1,8 @@
+// Description:
+//    main vide suivi d'un point-virgule
+//
+// Resultats:
+// ligne 8:  "no viable alternative at input '}'"
+
+
+{ return}

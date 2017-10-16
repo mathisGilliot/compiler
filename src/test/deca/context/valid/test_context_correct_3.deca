@@ -1,0 +1,30 @@
+// Description :
+// on déclare les classes A,B et C des classe avec la hiérarchie C hérite de B et B hérite de A. On déclare une variable de type C et on essaie d'appeler la méthode M (de A) avec cette variable.
+//
+// Résultats :
+// ok
+
+
+  class A {
+  	void M() {
+  	}
+  	
+  }
+  
+  class B extends A {
+  	void G() {
+  	}
+  }
+  
+  class C extends B {
+  	int y ;
+  	void R() {
+  	}
+}
+  class D {
+  }
+
+{
+	C f;
+	f.M();
+}

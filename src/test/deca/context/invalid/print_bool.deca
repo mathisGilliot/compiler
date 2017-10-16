@@ -1,0 +1,10 @@
+// Description :
+// test de l'affichage d'un booléen
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Une expression de type boolean n'est pas imprimable (règle 3.31)
+
+{
+  println(true);
+}

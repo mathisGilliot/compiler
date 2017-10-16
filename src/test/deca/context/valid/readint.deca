@@ -1,0 +1,12 @@
+// Description :
+// test de l'instruction readInt()
+//
+// Résultats :
+// ok
+
+{
+//  int x;
+  float y;
+//  x = readInt();
+  y = readInt();
+}

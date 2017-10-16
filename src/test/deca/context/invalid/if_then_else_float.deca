@@ -1,0 +1,14 @@
+// Description :
+// test d'un if then else avec une condition non-booléenne
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : La condition n'est pas un booléen (règle 3.22)
+
+{
+  if (4.0) {
+    println("true");
+  } else {
+    println("false");
+  }
+}

@@ -1,0 +1,34 @@
+// Description :
+// Même chose que test_context_incorrect_5.deca: sauf qu'on appelle la méthode M avec un paramètre non erroné qui est un champ de la classe B.
+//
+// Résultats :
+// Erreur contextuelle
+// ligne 33: (règle 3.74)
+
+
+  class A {
+  	void M(int a, float b) {
+  	}
+  	
+  }
+  
+  class B extends A {
+  	float b;
+  	void G() {
+  	}
+  }
+  
+  class C extends B {
+  	int y ;
+  	void R() {
+  	}
+}
+  class D {
+  }
+
+{
+	C f;
+	int k;
+	boolean b;
+	f.M(k);
+}

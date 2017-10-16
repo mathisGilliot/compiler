@@ -1,0 +1,19 @@
+// Description:
+//    Test d'un new dans une classe
+//
+// Résultats:
+//    ok
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+    int x;
+}
+class B {
+    int y;
+    void setY() {
+    	 A a = new A();
+	 y = a.x;
+    }
+}

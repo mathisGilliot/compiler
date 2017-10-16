@@ -1,0 +1,6 @@
+// Lecture et affichage d’un float
+{
+   float x ;
+   x=readFloat() ;
+   println(x) ;
+}

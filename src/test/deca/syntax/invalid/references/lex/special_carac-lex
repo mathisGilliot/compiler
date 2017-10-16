@@ -1,0 +1,2 @@
+'{': [@0,194:194='{',<13>,10:0]
+INFO  fr.ensimag.deca.syntax.DecacErrorListner.syntaxError(DecacErrorListner.java:50) - no token, no LocationException => using input.getSourceName(): line=10

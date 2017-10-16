@@ -1,0 +1,107 @@
+	TSTO #4
+	BOV stack_overflow_error
+	ADDSP #4
+; start main program
+; Code de la table des méthodes de Object
+	LOAD #null, R0
+	STORE R0, 1(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 2(GB)
+; Main program
+; Variables declarations
+; Déclaration x
+	LOAD #3, R2
+	STORE R2, 3(GB)
+; Déclaration y
+	LOAD #6, R2
+	STORE R2, 4(GB)
+; Beginning of main instructions:
+; Print
+	WSTR "x = "
+; Print
+	LOAD 3(GB), R1
+	WINT
+	WNL
+; Print
+	WSTR "y = "
+; Print
+	LOAD 4(GB), R1
+	WINT
+	WNL
+; Print
+	WSTR "x+y = "
+; Print
+	LOAD 3(GB), R2
+	ADD 4(GB), R2
+	LOAD R2, R1
+	WINT
+	WNL
+; Print
+	WSTR "x-y = "
+; Print
+	LOAD 3(GB), R3
+	SUB 4(GB), R3
+	LOAD R3, R1
+	WINT
+	WNL
+; Print
+	WSTR "x/y = "
+; Print
+	LOAD 3(GB), R4
+	QUO 4(GB), R4
+	BOV overflow_error
+	LOAD R4, R1
+	WINT
+	WNL
+; Print
+	WSTR "y/x = "
+; Print
+	LOAD 4(GB), R5
+	QUO 3(GB), R5
+	BOV overflow_error
+	LOAD R5, R1
+	WINT
+	WNL
+; Print
+	WSTR "x%y = "
+; Print
+	LOAD 3(GB), R6
+	REM 4(GB), R6
+	BOV overflow_error
+	LOAD R6, R1
+	WINT
+	WNL
+; Print
+	WSTR "y%x = "
+; Print
+	LOAD 4(GB), R7
+	REM 3(GB), R7
+	BOV overflow_error
+	LOAD R7, R1
+	WINT
+	WNL
+	HALT
+overflow_error:
+	WSTR "Error: Overflow during arithmetic operation"
+	WNL
+	ERROR
+stack_overflow_error:
+	WSTR "Error: Stack Overflow"
+	WNL
+	ERROR
+io_error:
+	WSTR "Error: Input/Output error"
+	WNL
+	ERROR
+deferencement_null:
+	WSTR "Error: dereferencement de null"
+	WNL
+	ERROR
+tas_plein:
+	WSTR "Error: tas plein"
+	WNL
+	ERROR
+code.Object.equals:
+	HALT
+; Code des classes
+; end main program

@@ -1,0 +1,45 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 0 elements]
+      `> ListInst [List with 10 elements]
+         []> [8, 2] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [8, 10] StringLiteral (Hello, world!)
+         ||         type: string
+         []> [9, 2] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [9, 10] StringLiteral (Hello, world!)
+         ||         type: string
+         []> [10, 2] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [10, 10] StringLiteral (Hello, world!)
+         ||         type: string
+         []> [11, 2] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [11, 10] StringLiteral (Hello, world!)
+         ||         type: string
+         []> [12, 2] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [12, 10] StringLiteral (Hello, world!)
+         ||         type: string
+         []> [13, 2] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [13, 10] StringLiteral (Hello, world!)
+         ||         type: string
+         []> [14, 2] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [14, 10] StringLiteral (Hello, world!)
+         ||         type: string
+         []> [15, 2] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [15, 10] StringLiteral (Hello, world!)
+         ||         type: string
+         []> [16, 2] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [16, 10] StringLiteral (Hello, world!)
+         ||         type: string
+         []> [17, 2] Println
+             `> ListExpr [List with 1 elements]
+                []> [17, 10] StringLiteral (Hello, world!)
+                    type: string

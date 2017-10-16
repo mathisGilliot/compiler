@@ -1,0 +1,9 @@
+// Description :
+// test d'une instruction
+//
+// Résultats :
+// ok
+
+{
+  println("Hello, world!");
+}

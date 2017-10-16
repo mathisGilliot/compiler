@@ -1,0 +1,9 @@
+// Description :
+// test d'un ConvFloat
+//
+// Résultats :
+// ok
+
+{
+  4 + 3.0;
+}

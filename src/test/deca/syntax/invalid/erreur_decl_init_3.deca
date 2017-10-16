@@ -1,0 +1,9 @@
+// Description:
+//    mauvaise déclaration/initialisation
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 9 : "mismatched input '<=' expecting {',', ';'}"
+
+{ int y;
+float x >= y;}

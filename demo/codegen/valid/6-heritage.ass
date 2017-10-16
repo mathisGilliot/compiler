@@ -1,0 +1,165 @@
+	TSTO #14
+	BOV stack_overflow_error
+	ADDSP #10
+; start main program
+; Code de la table des méthodes de Object
+	LOAD #null, R0
+	STORE R0, 1(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 2(GB)
+; Code de la table des méthodes de A
+	LEA 1(GB), R0
+	STORE R0, 3(GB)
+	LOAD code.Object.equals, R0	; Héritage de la méthode de Object
+	STORE R0, 4(GB)
+	LOAD code.A.F, R0
+	STORE R0, 5(GB)
+; Code de la table des méthodes de B
+	LEA 3(GB), R0
+	STORE R0, 6(GB)
+	LOAD code.Object.equals, R0	; Héritage de la méthode de A
+	STORE R0, 7(GB)
+	LOAD code.A.F, R0	; Héritage de la méthode de A
+	STORE R0, 8(GB)
+	LOAD code.B.M, R0
+	STORE R0, 9(GB)
+; Main program
+; Variables declarations
+; Déclaration c
+	NEW #4, R2
+	BOV tas_plein
+	LEA 6(GB), R0
+	STORE R0, 0(R2)
+	PUSH R2
+	BSR init.B
+	POP R2
+	STORE R2, 10(GB)
+; Beginning of main instructions:
+; Affectation
+	LOAD 10(GB), R2
+	CMP #null, R2
+	BEQ deferencement_null
+	LOAD #1, R3
+	STORE R3, 1(R2)
+; Affectation
+	LOAD 10(GB), R2
+	CMP #null, R2
+	BEQ deferencement_null
+	LOAD #2, R3
+	STORE R3, 2(R2)
+; Affectation
+	LOAD 10(GB), R2
+	CMP #null, R2
+	BEQ deferencement_null
+	LOAD #3, R3
+	STORE R3, 3(R2)
+; Print
+	ADDSP #2
+	LOAD 10(GB), R3
+	STORE R3, 0(SP)
+	ADDSP #1
+	LOAD 10(GB), R5
+	STORE R5, 0(SP)
+	LOAD 0(SP), R5
+	CMP #null, R5
+	BEQ deferencement_null
+	LOAD 0(R5), R5
+	BSR 2(R5)
+	SUBSP #1
+	LOAD R0, R4
+	STORE R4, -1(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ deferencement_null
+	LOAD 0(R3), R3
+	BSR 3(R3)
+	SUBSP #2
+	LOAD R0, R2
+	LOAD R2, R1
+	WINT
+	HALT
+overflow_error:
+	WSTR "Error: Overflow during arithmetic operation"
+	WNL
+	ERROR
+stack_overflow_error:
+	WSTR "Error: Stack Overflow"
+	WNL
+	ERROR
+io_error:
+	WSTR "Error: Input/Output error"
+	WNL
+	ERROR
+deferencement_null:
+	WSTR "Error: dereferencement de null"
+	WNL
+	ERROR
+tas_plein:
+	WSTR "Error: tas plein"
+	WNL
+	ERROR
+code.Object.equals:
+	HALT
+; Code des classes
+; Initialisation des champs de A
+init.A:
+	LOAD -2(LB), R1
+; Initialisation de x
+	LOAD #0, R0
+	LOAD -2(LB), R1
+	STORE R0, 1(R1)
+; Initialisation de y
+	LOAD #0, R0
+	LOAD -2(LB), R1
+	STORE R0, 2(R1)
+; Initialisation de z
+	LOAD #0, R0
+	LOAD -2(LB), R1
+	STORE R0, 3(R1)
+	RTS
+; Initialisation des champs de B
+init.B:
+	LOAD -2(LB), R1
+; Appel de l’initialisation des champs hérités de A
+	PUSH R1
+	BSR init.A
+	SUBSP #1
+	LOAD -2(LB), R1
+	RTS
+; Code de la méthode F
+Code.A.F:
+; Sauvegarde des registres
+	TSTO #2
+	BOV stack_overflow_error
+	ADDSP #0
+	PUSH R2
+	PUSH R3
+; Affectation
+	LOAD -2(LB), R2
+	LOAD -2(LB), R3
+	LOAD 1(R3), R3
+	ADD #10, R3
+	STORE R3, 1(R2)
+	LOAD -2(LB), R2
+	LOAD 1(R2), R2
+	LOAD R2, R0
+fin.A.F:
+; Restauration des registres
+	POP R3
+	POP R2
+	RTS
+; Code de la méthode M
+Code.B.M:
+; Sauvegarde des registres
+	TSTO #1
+	BOV stack_overflow_error
+	ADDSP #0
+	PUSH R2
+	LOAD -3(LB), R2
+	ADD #20, R2
+	LOAD R2, R0
+fin.B.M:
+; Restauration des registres
+	POP R2
+	RTS
+; end main program

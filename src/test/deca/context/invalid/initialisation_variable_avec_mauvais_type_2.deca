@@ -1,0 +1,8 @@
+// Description :
+//initialisation d'une variable avec le mauvais type
+//
+// Resultats : 
+// 	Erreur contextuelle 
+//  Ligne 8 : "types non-compatibles (Règle (3.28))" 
+
+{float x = true;}

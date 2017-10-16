@@ -1,0 +1,8 @@
+// Description:
+//    crochet ouvrant manquant dans le main
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 8 : missing '}' 
+
+{

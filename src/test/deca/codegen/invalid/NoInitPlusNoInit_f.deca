@@ -1,0 +1,13 @@
+// Description:
+//    addition sans initialisation
+//
+// Resultats:
+//  Erreur
+//
+// Historique:
+//    cree le 13/01/2017
+{
+float x;
+float y;
+print(x + y);
+}

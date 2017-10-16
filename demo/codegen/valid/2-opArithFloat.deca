@@ -1,0 +1,10 @@
+{
+	float x = 4.5;
+	float y = 2.5;
+	println ("x = ", x);
+	println("y = ", y);
+	println ("x+y = ", x+y);
+	println("x-y = ", x-y);
+	println("x/y = ", x/y);
+	println("y/x = ", y/x);
+}

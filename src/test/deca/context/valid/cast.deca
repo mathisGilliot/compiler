@@ -1,0 +1,23 @@
+// Description:
+//    Test d'un cast
+//
+// Résultats:
+//    ok
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+}
+class B extends A {
+}
+{
+  int n;
+  float x;
+  int m = (int) (x);
+  float y = (float) (n);
+  A a;
+  B b;
+  A a2 = (A) (b);
+  B b2 = (B) (a);
+}

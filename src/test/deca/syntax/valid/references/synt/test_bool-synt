@@ -1,0 +1,23 @@
+`> [8, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [8, 0] Main
+      +> ListDeclVar [List with 2 elements]
+      |  []> [8, 10] DeclVar
+      |  ||  +> [8, 2] Identifier (boolean)
+      |  ||  +> Identifier (v)
+      |  ||  `> NoInitialization
+      |  []> [9, 10] DeclVar
+      |      +> [9, 2] Identifier (boolean)
+      |      +> Identifier (u)
+      |      `> NoInitialization
+      `> ListInst [List with 2 elements]
+         []> [10, 2] And
+         ||  +> [10, 2] And
+         ||  |  +> [10, 2] Identifier (u)
+         ||  |  `> [10, 7] Identifier (v)
+         ||  `> [10, 12] BooleanLiteral (true)
+         []> [11, 2] Or
+             +> [11, 2] And
+             |  +> [11, 2] Identifier (u)
+             |  `> [11, 7] Identifier (v)
+             `> [11, 12] BooleanLiteral (false)

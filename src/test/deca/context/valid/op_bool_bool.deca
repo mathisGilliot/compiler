@@ -1,0 +1,11 @@
+// Description :
+// test d'opérations booléennes avec des booléens
+//
+// Résultats :
+// ok
+
+{
+  boolean b;
+  b = true && false;
+  b = true || false;
+}

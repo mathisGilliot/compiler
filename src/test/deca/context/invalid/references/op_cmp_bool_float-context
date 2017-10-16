@@ -1,0 +1,1 @@
+./../deca/context/invalid/op_cmp_bool_float.deca:9:2: Comparaison entre des objets de type boolean et float impossible (règle 3.33)

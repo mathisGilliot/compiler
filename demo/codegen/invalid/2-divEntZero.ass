@@ -1,0 +1,45 @@
+	TSTO #3
+	BOV stack_overflow_error
+	ADDSP #3
+; start main program
+; Code de la table des méthodes de Object
+	LOAD #null, R0
+	STORE R0, 1(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 2(GB)
+; Main program
+; Variables declarations
+; Déclaration x
+	LOAD #1, R2
+	STORE R2, 3(GB)
+; Beginning of main instructions:
+; Affectation
+	LOAD 3(GB), R2
+	QUO #0, R2
+	BOV overflow_error
+	STORE R2, 3(GB)
+	HALT
+overflow_error:
+	WSTR "Error: Overflow during arithmetic operation"
+	WNL
+	ERROR
+stack_overflow_error:
+	WSTR "Error: Stack Overflow"
+	WNL
+	ERROR
+io_error:
+	WSTR "Error: Input/Output error"
+	WNL
+	ERROR
+deferencement_null:
+	WSTR "Error: dereferencement de null"
+	WNL
+	ERROR
+tas_plein:
+	WSTR "Error: tas plein"
+	WNL
+	ERROR
+code.Object.equals:
+	HALT
+; Code des classes
+; end main program

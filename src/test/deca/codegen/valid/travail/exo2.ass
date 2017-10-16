@@ -1,0 +1,199 @@
+	TSTO #11
+	BOV stack_overflow_error
+	ADDSP #11
+; start main program
+; Code de la table des méthodes de Object
+	LOAD #null, R0
+	STORE R0, 1(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 2(GB)
+; Code de la table des méthodes de Point2D
+	LEA 1(GB), R0
+	STORE R0, 3(GB)
+	LOAD code.Object.equals, R0	; Héritage de la méthode de Object
+	STORE R0, 4(GB)
+	LOAD code.Point2D.diag, R0
+	STORE R0, 5(GB)
+; Code de la table des méthodes de Point3D
+	LEA 3(GB), R0
+	STORE R0, 6(GB)
+	LOAD code.Object.equals, R0	; Héritage de la méthode de Point2D
+	STORE R0, 7(GB)
+	LOAD code.Point3D.diag, R0	; Redéfinition de la méthode 
+	STORE R0, 8(GB)
+; Main program
+; Variables declarations
+; Déclaration p1
+; Déclaration p2
+; Déclaration p3
+; Beginning of main instructions:
+; Affectation
+	NEW #3, R2
+	BOV tas_plein
+	LEA 3(GB), R0
+	STORE R0, 0(R2)
+	PUSH R2
+	BSR init.Point2D
+	POP R2
+	STORE R2, 9(GB)
+	ADDSP #2
+	LOAD 9(GB), R2
+	STORE R2, 0(SP)
+	LOAD #1, R3
+	STORE R3, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ deferencement_null
+	LOAD 0(R2), R2
+	BSR 2(R2)
+	SUBSP #2
+; Affectation
+	NEW #4, R2
+	BOV tas_plein
+	LEA 6(GB), R0
+	STORE R0, 0(R2)
+	PUSH R2
+	BSR init.Point3D
+	POP R2
+	STORE R2, 11(GB)
+	ADDSP #2
+	LOAD 11(GB), R2
+	STORE R2, 0(SP)
+	LOAD #2, R3
+	STORE R3, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ deferencement_null
+	LOAD 0(R2), R2
+	BSR 2(R2)
+	SUBSP #2
+; Affectation
+	LOAD 11(GB), R2
+	STORE R2, 10(GB)
+	ADDSP #2
+	LOAD 10(GB), R2
+	STORE R2, 0(SP)
+	LOAD #3, R3
+	STORE R3, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ deferencement_null
+	LOAD 0(R2), R2
+	BSR 2(R2)
+	SUBSP #2
+	WSTR "p3.z = "
+; Print
+	LOAD 11(GB), R1
+	CMP #null, R1
+	BEQ deferencement_null
+	LOAD 3(R1), R1
+	WINT
+	WNL
+	HALT
+overflow_error:
+	WSTR "Error: Overflow during arithmetic operation"
+	WNL
+	ERROR
+stack_overflow_error:
+	WSTR "Error: Stack Overflow"
+	WNL
+	ERROR
+io_error:
+	WSTR "Error: Input/Output error"
+	WNL
+	ERROR
+deferencement_null:
+	WSTR "Error: dereferencement de null"
+	WNL
+	ERROR
+tas_plein:
+	WSTR "Error: tas plein"
+	WNL
+	ERROR
+code.Object.equals:
+	HALT
+; Code des classes
+; Initialisation des champs de Point2D
+init.Point2D:
+	LOAD -2(LB), R1
+; Initialisation de x
+	LOAD #0, R0
+	LOAD -2(LB), R1
+	STORE R0, 1(R1)
+; Initialisation de y
+	LOAD #0, R0
+	LOAD -2(LB), R1
+	STORE R0, 2(R1)
+	RTS
+; Initialisation des champs de Point3D
+init.Point3D:
+	LOAD -2(LB), R1
+	LOAD #0, R0
+	STORE R0, 3(R1)
+; Appel de l’initialisation des champs hérités de Point2D
+	PUSH R1
+	BSR init.Point2D
+	SUBSP #1
+	LOAD -2(LB), R1
+; Initialisation de z
+	LOAD #0, R0
+	LOAD -2(LB), R1
+	STORE R0, 3(R1)
+	RTS
+; Code de la méthode diag
+Code.Point2D.diag:
+	TSTO #3
+	BOV stack_overflow_error
+	ADDSP #0
+; Sauvegarde des registres
+	PUSH R2
+	PUSH R3
+; Affectation
+	LOAD -2(LB), R2
+	LOAD -2(LB), R3
+	LOAD 1(R3), R3
+	ADD -3(LB), R3
+	STORE R3, 1(R2)
+; Affectation
+	LOAD -2(LB), R2
+	LOAD -2(LB), R3
+	LOAD 2(R3), R3
+	ADD -3(LB), R3
+	STORE R3, 2(R2)
+; Restauration des registres
+	POP R3
+	POP R2
+fin.Point2D.diag:
+	RTS
+; Code de la méthode diag
+Code.Point3D.diag:
+	TSTO #3
+	BOV stack_overflow_error
+	ADDSP #0
+; Sauvegarde des registres
+	PUSH R2
+	PUSH R3
+; Affectation
+	LOAD -2(LB), R2
+	LOAD -2(LB), R3
+	LOAD 1(R3), R3
+	ADD -3(LB), R3
+	STORE R3, 1(R2)
+; Affectation
+	LOAD -2(LB), R2
+	LOAD -2(LB), R3
+	LOAD 2(R3), R3
+	ADD -3(LB), R3
+	STORE R3, 2(R2)
+; Affectation
+	LOAD -2(LB), R2
+	LOAD -2(LB), R3
+	LOAD 3(R3), R3
+	ADD -3(LB), R3
+	STORE R3, 3(R2)
+; Restauration des registres
+	POP R3
+	POP R2
+fin.Point3D.diag:
+	RTS
+; end main program

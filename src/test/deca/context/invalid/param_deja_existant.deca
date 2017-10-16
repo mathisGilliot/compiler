@@ -1,0 +1,16 @@
+// Description :
+//    Test de l'utilisation de deux paramètres ayant le même nom
+//
+// Résultats:
+//    Ligne 12 : 
+//
+// Historique:
+//    créé le 22/01/2017
+
+class A {
+    int x;
+    void setX(int a, int a) {
+    	 this.x = a;
+    }
+}
+

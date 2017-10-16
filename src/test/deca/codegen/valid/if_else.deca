@@ -1,0 +1,17 @@
+// Description:
+//    test simple d'un if else
+//
+// Resultats:
+//  ok
+//
+// Historique:
+//    cree le 14/01/2017
+{
+  int x = 0;
+  if (x == 0){
+    print("ok");
+  }
+  else{
+    print("oups");
+  }
+}

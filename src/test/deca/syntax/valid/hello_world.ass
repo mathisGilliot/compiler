@@ -1,0 +1,23 @@
+; start main program
+	TSTO #0
+	BOV stack_overflow_error
+	ADDSP #0
+; Main program
+; Variables declarations
+; Beginning of main instructions:
+	WSTR "Hello World"
+	WNL
+	HALT
+; end main program
+overflow_error:
+	WSTR "Error: Overflow during arithmetic operation"
+	WNL
+	ERROR
+stack_overflow_error:
+	WSTR "Error: Stack Overflow"
+	WNL
+	ERROR
+io_error:
+	WSTR "Error: Input/Output error"
+	WNL
+	ERROR

@@ -1,0 +1,13 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 0 elements]
+      `> ListInst [List with 1 elements]
+         []> [8, 2] Plus
+             type: float
+             +> ConvFloat
+             |  type: float
+             |  `> [8, 2] Int (4)
+             |     type: int
+             `> [8, 6] Float (3.0)
+                type: float

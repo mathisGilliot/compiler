@@ -1,0 +1,11 @@
+// Description :
+// test de not sur un flottant
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 10 : Négation sur un objet de type float impossible (règle 3.37)
+
+{
+  float x = 1;
+  x = !x;
+}

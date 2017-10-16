@@ -1,0 +1,33 @@
+// Description :
+// Même chose que test_context_correct_4.deca sauf qu'on appelle la méthode M avec un paramètre erroné (un boolean à la place d'un int)
+//
+// Résultats :
+// Erreur contextuelle
+// ligne 31: Affectation à un objet de type int une valeur de type boolean impossible (règle 3.28)
+
+
+  class A {
+  	void M(int a, float b) {
+  	}
+  	
+  }
+  
+  class B extends A {
+  	void G() {
+  	}
+  }
+  
+  class C extends B {
+  	int y ;
+  	void R() {
+  	}
+}
+  class D {
+  }
+
+{
+	C f;
+	boolean k;
+	float b;
+	f.M(k,b);
+}

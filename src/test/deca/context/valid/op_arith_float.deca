@@ -1,0 +1,13 @@
+// Description :
+// test d'opérations binaires sur des flottants
+//
+// Résultats :
+// ok
+
+{
+  float x;
+  x = 1.0 / 1.0;
+  x = 1.0 - 1.0;
+  x = 1.0 * 1.0;
+  x = 1.0 + 1.0;
+}

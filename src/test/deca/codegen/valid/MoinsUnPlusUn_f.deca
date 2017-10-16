@@ -1,0 +1,11 @@
+// Description:
+//    tests simple addition
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 20/01/2017
+{
+print((-1.0)+2.0);
+}

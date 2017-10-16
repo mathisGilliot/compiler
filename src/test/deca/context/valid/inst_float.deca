@@ -1,0 +1,9 @@
+// Description :
+// test d'une expression flottante
+//
+// Résultats :
+// ok
+
+{
+  5.0;
+}

@@ -1,0 +1,1 @@
+./../deca/context/invalid/types_incompatibles_int_float.deca:10:6: Affectation à un objet de type int une valeur de type float impossible (règle 3.28)

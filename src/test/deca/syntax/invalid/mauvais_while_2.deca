@@ -1,0 +1,15 @@
+// Description:
+//    mauvaise utilisation du while: première parenthèse manquante
+//
+// Resultats:
+// ligne 10: "missing '(' at 'x'"
+
+
+{
+	int x = 0;
+	while x > 2) {
+	      x = x+1;
+				println(x);
+	      }
+	  println("je suis au bout");    
+}

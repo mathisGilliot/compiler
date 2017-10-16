@@ -1,0 +1,24 @@
+// Description:
+//    on déclare des champs au sein d'une classe
+//
+// Resultats:
+//   ligne 23 : dans la classe courante, si un nom de champ, qui a le même nom qu'un objet de la classe super, existe, alors cet objet doit être un champ (Règle (2.5))
+
+class A {
+
+	void m() {
+	}
+
+	
+}
+
+class B extends A {
+	
+	int d;
+	
+}
+
+class C extends B {
+
+	int m;
+}

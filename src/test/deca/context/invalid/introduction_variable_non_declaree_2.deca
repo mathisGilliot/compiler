@@ -1,0 +1,9 @@
+// Description :
+//introduction d'une variable non initialisée via une affectation
+//
+// Resultats : 
+// 	Erreur contextuelle 
+//  Ligne 9 : "x n'a pas été déclarée"
+
+{int y;
+ y = x;}

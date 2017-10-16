@@ -1,0 +1,15 @@
+// Description:
+//    Test d'une déclaration de champs booléens
+//
+// Résultats:
+//    OK
+//
+// Historique:
+//    créé le 19/01/2017
+
+
+class A {
+  boolean x;
+  boolean y = true;
+  boolean z = false;
+}

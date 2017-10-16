@@ -1,0 +1,16 @@
+// Description :
+// test de comparaisons entre des entiers
+//
+// Résultats :
+// ok
+
+{
+  boolean b;
+  int x = 1;
+  b = x == 1;
+  b = x != 2;
+  b = x < 2;
+  b = x > 2;
+  b = x <= 2;
+  b = x >= 2;
+}

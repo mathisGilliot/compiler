@@ -1,0 +1,64 @@
+`> [10, 0] Program
+   +> ListDeclClass [List with 1 elements]
+   |  []> [10, 0] DeclClass
+   |      +> [10, 6] Identifier (A)
+   |      |  definition: type defined at [10, 0], type=A
+   |      +> [builtin] Identifier (Object)
+   |      |  definition: type (builtin), type=Object
+   |      +> ListDeclField [List with 3 elements]
+   |      |  []> [11, 6] [visibility=PUBLIC] DeclField
+   |      |  ||  +> [11, 2] Identifier (int)
+   |      |  ||  |  definition: type (builtin), type=int
+   |      |  ||  +> [11, 6] Identifier (a)
+   |      |  ||  |  definition: field defined at [11, 6], type=int
+   |      |  ||  `> NoInitialization
+   |      |  []> [12, 8] [visibility=PUBLIC] DeclField
+   |      |  ||  +> [12, 2] Identifier (float)
+   |      |  ||  |  definition: type (builtin), type=float
+   |      |  ||  +> [12, 8] Identifier (x)
+   |      |  ||  |  definition: field defined at [12, 8], type=float
+   |      |  ||  `> NoInitialization
+   |      |  []> [13, 10] [visibility=PUBLIC] DeclField
+   |      |      +> [13, 2] Identifier (boolean)
+   |      |      |  definition: type (builtin), type=boolean
+   |      |      +> [13, 10] Identifier (b)
+   |      |      |  definition: field defined at [13, 10], type=boolean
+   |      |      `> NoInitialization
+   |      `> ListDeclMethod [List with 3 elements]
+   |         []> [14, 2] DeclMethod
+   |         ||  +> [14, 2] Identifier (int)
+   |         ||  |  definition: type (builtin), type=int
+   |         ||  +> [14, 6] Identifier (getInt)
+   |         ||  |  definition: method defined at [14, 2], type=int
+   |         ||  +> ListDeclParam [List with 0 elements]
+   |         ||  `> [14, 15] MethodBody
+   |         ||     +> ListDeclVar [List with 0 elements]
+   |         ||     `> ListInst [List with 1 elements]
+   |         ||        []> [15, 4] Return
+   |         ||            `> [15, 11] Identifier (a)
+   |         ||               definition: field defined at [11, 6], type=int
+   |         []> [17, 2] DeclMethod
+   |         ||  +> [17, 2] Identifier (float)
+   |         ||  |  definition: type (builtin), type=float
+   |         ||  +> [17, 8] Identifier (getFloat)
+   |         ||  |  definition: method defined at [17, 2], type=float
+   |         ||  +> ListDeclParam [List with 0 elements]
+   |         ||  `> [17, 19] MethodBody
+   |         ||     +> ListDeclVar [List with 0 elements]
+   |         ||     `> ListInst [List with 1 elements]
+   |         ||        []> [18, 4] Return
+   |         ||            `> [18, 11] Identifier (x)
+   |         ||               definition: field defined at [12, 8], type=float
+   |         []> [20, 2] DeclMethod
+   |             +> [20, 2] Identifier (boolean)
+   |             |  definition: type (builtin), type=boolean
+   |             +> [20, 10] Identifier (getBool)
+   |             |  definition: method defined at [20, 2], type=boolean
+   |             +> ListDeclParam [List with 0 elements]
+   |             `> [20, 20] MethodBody
+   |                +> ListDeclVar [List with 0 elements]
+   |                `> ListInst [List with 1 elements]
+   |                   []> [21, 4] Return
+   |                       `> [21, 11] Identifier (b)
+   |                          definition: field defined at [13, 10], type=boolean
+   `> EmptyMain

@@ -1,0 +1,16 @@
+// Description :
+// test d'un if then else
+//
+// Résultats :
+// ok
+
+{
+  int x = 0;
+  if (x == 2) {
+    println(x);
+  } else if (x == 0){
+    println(0);
+  } else {
+    println(x);
+  }
+}

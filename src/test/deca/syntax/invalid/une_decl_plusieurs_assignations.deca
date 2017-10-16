@@ -1,0 +1,7 @@
+// Description:
+//    plusieurs expressions non séparées par des points-virgules
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 7 : "mismatched input '3' expecting IDENT "
+
+{ int x = 2,3,1;}

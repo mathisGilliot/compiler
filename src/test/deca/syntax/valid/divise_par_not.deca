@@ -1,0 +1,10 @@
+// Description:
+//    on divise par !unary_exp puis par -3
+//
+// Resultats:
+//   ok
+
+
+{ int x;
+  x/!true;
+  x/-3;}

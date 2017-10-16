@@ -1,0 +1,17 @@
+// Description:
+//    test simple d'un while
+//
+// Resultats:
+//  ok
+//  ok
+//  ok
+//
+// Historique:
+//    cree le 14/01/2017
+{
+  int x = 0;
+  while(x<3){
+    println("ok");
+    x = x + 1;
+  }
+}

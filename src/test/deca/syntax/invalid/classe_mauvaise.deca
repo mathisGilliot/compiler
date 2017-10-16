@@ -1,0 +1,9 @@
+// Description:
+//    on écit autre chose qu'une méthode ou une classe dans une classe
+//
+// Resultats:
+//   
+
+class A extends {
+	3;
+}

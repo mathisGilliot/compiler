@@ -1,0 +1,15 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 0 elements]
+      `> ListInst [List with 1 elements]
+         []> [7, 2] IfThenElse
+             +> [7, 6] BooleanLiteral (true)
+             +> ListInst [List with 1 elements]
+             |  []> [8, 1] Int (3)
+             `> ListInst [List with 1 elements]
+                []> IfThenElse
+                    +> [10, 11] BooleanLiteral (false)
+                    +> ListInst [List with 1 elements]
+                    |  []> [11, 2] Int (2)
+                    `> ListInst [List with 0 elements]

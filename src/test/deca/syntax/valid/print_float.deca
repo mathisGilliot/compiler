@@ -1,0 +1,12 @@
+// Description:
+//    Programme qui print un float
+//
+// Resultats:
+//    1.5
+//
+// Historique:
+//    cree le 13/01/2017
+
+{
+  print(1.5);
+}

@@ -1,0 +1,1 @@
+./../deca/context/invalid/field_init_float_bool.deca:12:12: Affectation à un objet de type float une valeur de type boolean impossible (règle 3.28)

@@ -1,0 +1,89 @@
+	TSTO #11
+	BOV stack_overflow_error
+	ADDSP #6
+; start main program
+; Code de la table des méthodes de Object
+	LOAD #null, R0
+	STORE R0, 1(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 2(GB)
+; Code de la table des méthodes de A
+	LEA 1(GB), R0
+	STORE R0, 3(GB)
+	LOAD code.Object.equals, R0	; Héritage de la méthode de Object
+	STORE R0, 4(GB)
+	LOAD code.A.add, R0
+	STORE R0, 5(GB)
+; Main program
+; Variables declarations
+; Déclaration test
+	NEW #1, R2
+	BOV tas_plein
+	LEA 3(GB), R0
+	STORE R0, 0(R2)
+	PUSH R2
+	BSR init.A
+	POP R2
+	STORE R2, 6(GB)
+; Beginning of main instructions:
+; Print
+	ADDSP #3
+	LOAD 6(GB), R3
+	STORE R3, 0(SP)
+	LOAD #0x1.c363ccp127, R4
+	STORE R4, -1(SP)
+	LOAD #0x1.c363ccp127, R4
+	STORE R4, -2(SP)
+	LOAD 0(SP), R3
+	CMP #null, R3
+	BEQ deferencement_null
+	LOAD 0(R3), R3
+	BSR 2(R3)
+	SUBSP #3
+	LOAD R0, R2
+	LOAD R2, R1
+	WFLOAT
+	HALT
+overflow_error:
+	WSTR "Error: Overflow during arithmetic operation"
+	WNL
+	ERROR
+stack_overflow_error:
+	WSTR "Error: Stack Overflow"
+	WNL
+	ERROR
+io_error:
+	WSTR "Error: Input/Output error"
+	WNL
+	ERROR
+deferencement_null:
+	WSTR "Error: dereferencement de null"
+	WNL
+	ERROR
+tas_plein:
+	WSTR "Error: tas plein"
+	WNL
+	ERROR
+code.Object.equals:
+	HALT
+; Code des classes
+; Initialisation des champs de A
+init.A:
+	LOAD -2(LB), R1
+	RTS
+; Code de la méthode add
+Code.A.add:
+; Sauvegarde des registres
+	TSTO #1
+	BOV stack_overflow_error
+	ADDSP #0
+	PUSH R2
+	LOAD -3(LB), R2
+	ADD -4(LB), R2
+	BOV overflow_error
+	LOAD R2, R0
+fin.A.add:
+; Restauration des registres
+	POP R2
+	RTS
+; end main program

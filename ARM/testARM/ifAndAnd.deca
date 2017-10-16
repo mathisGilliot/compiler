@@ -1,0 +1,22 @@
+// Description:
+//    test d'un and and boolean en condition
+//
+// Resultats:
+//  ok
+//affiché : okoups
+//
+// Historique:
+//    cree le 22/01/2017
+{
+boolean b = true;
+boolean t = true;
+boolean y = false;
+int x = 0;
+if (b&&t&&y){
+  x = 2;
+  }
+else {
+  x = 1;
+  }
+print(x);
+}

@@ -1,0 +1,28 @@
+class A {
+	int x;
+	int y;
+	int z;
+	
+	int F() {
+	x=x+10;
+	return x;
+	}
+}
+
+class B extends A {
+	
+	int M(int a) {
+		return a+20;
+	}
+	
+}
+
+{	
+	B c = new B();
+	c.x=1;
+	c.y=2;
+	c.z=3;
+	print( c.M(c.F()) );
+	
+	
+}

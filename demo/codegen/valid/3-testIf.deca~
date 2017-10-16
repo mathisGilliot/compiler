@@ -1,0 +1,11 @@
+{
+	int x = 1;
+	int y = 1;
+	boolean b = (x == y); 
+	if(b){
+	     println("x == y");
+	     }
+	else {
+	     println("x != y");
+	     }
+}

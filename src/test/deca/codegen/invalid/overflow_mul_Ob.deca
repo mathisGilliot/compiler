@@ -1,0 +1,18 @@
+// Description:
+//    overflow par mult
+//
+// Resultats:
+//  erreur
+//
+// Historique:
+//    cree le 23/01/2017
+
+class A{
+  float mult(float x,float y){
+    return x*y;
+  }
+}
+{
+A test = new A();
+print(test.mult(2999999999999999999999999999999.0,2999999999999999999999999999999.0));
+}

@@ -1,0 +1,12 @@
+class P {
+      int afficher(){
+      	  return 1;
+	  }
+}
+
+{
+	P c = new P();
+	int n = c.afficher();
+	println(n);
+	
+}

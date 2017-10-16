@@ -1,0 +1,18 @@
+// Description:
+//    overflow par add
+//
+// Resultats:
+//  erreur
+//
+// Historique:
+//    cree le 23/01/2017
+
+class A{
+  float add(float x,float y){
+    return x+y;
+  }
+}
+{
+A test = new A();
+print(test.add(299999999999999999999999999999999999999.0,299999999999999999999999999999999999999.0));
+}

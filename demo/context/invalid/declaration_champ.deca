@@ -1,0 +1,7 @@
+class A {
+      void x(int a) {
+      	  x = a;
+      }
+      int x;
+      
+}

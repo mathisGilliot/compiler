@@ -1,0 +1,1 @@
+./../deca/context/invalid/op_arith_null.deca:9:2: Opération arithmétique entre des objets de type int et null impossible (règle 3.37)

@@ -1,0 +1,13 @@
+// Description:
+//    division par 0
+//
+// Resultats:
+//   renvoie une erreur
+//
+//
+// Historique:
+//    cree le 14/01/2017
+{
+float x = 1.0;
+x = x/0.0;
+}

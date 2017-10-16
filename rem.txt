@@ -1,0 +1,20 @@
+Tous les fichiers de test ont un format obligatoire:
+
+valid
+// Description :
+//    test de la conversion entier -> flottant
+//
+// Resultats :
+//    ok
+
+invalid
+// Resultats :
+//    Erreur contextuelle
+//    Ligne <No_de_ligne> : <message d’erreur de votre compilateur>
+
+Recognition exception par défaut par ANTLR
+-> Pas besoin d'ajouter des throws
+   A tester
+
+Dernière regle :
+.: "caractere non reconnu" (gere les caracteres chinois)

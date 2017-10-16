@@ -1,0 +1,10 @@
+// Description :
+// test d'une comparaison entre un entier et une chaîne de caractères
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Comparaison enre des objets de type int et string impossible (règle 3.33)
+
+{
+  1 < "Hello";
+}

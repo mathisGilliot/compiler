@@ -1,0 +1,18 @@
+// Description:
+//    mauvaise utilisation du if: autre chose qu'une inst dans le crochet du else 
+//
+// Resultats:
+// ligne 15: "extraneous input 'x' expecting {'<', '>', '=', '+', '-', '*', '%', '/', '.', ';', '==', '!=', '>=', '<=', '&&', '||', 'instanceof'}"
+
+
+{if (true) {
+	println("if");
+ }
+ else if (false) {
+ 	println("elsif");
+ }
+ else {
+ 	boolean x;
+ };
+}
+  

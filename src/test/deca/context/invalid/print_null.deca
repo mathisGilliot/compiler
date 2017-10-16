@@ -1,0 +1,10 @@
+// Description :
+// test de l'affichage de null
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Une expression de type null n'est pas imprimable (règle 3.31)
+
+{
+  println(null);
+}

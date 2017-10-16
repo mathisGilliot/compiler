@@ -1,0 +1,11 @@
+// Description :
+// comparaison d'un float avec un entier via le symbol ==
+//
+// Résultats :
+// ok
+
+{
+  int x = 2;
+  float y ;
+  y == x;
+}

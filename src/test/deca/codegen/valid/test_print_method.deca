@@ -1,0 +1,22 @@
+// Description:
+//    Declaration de methode dans une classe
+//
+// Resultats:
+//  2
+//
+//
+// Historique:
+//    cree le 23/01/2017
+
+class A{
+    void doPrint(int x){
+      print(x);
+    }
+
+  }
+{
+A test = new A();
+int x = 2;
+test.doPrint(x);
+
+}

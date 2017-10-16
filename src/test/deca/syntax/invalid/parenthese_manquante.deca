@@ -1,0 +1,12 @@
+// Description:
+//    on omet une parenthèse au niveau de primary_exp
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 11 : " extraneous input ')' expecting {'<', '>', '=', '+', '-', '*', '%', '/', '.', ';', '==', '!=', '>=',
+// '<=', '&&', '||', 'instanceof'} "
+
+
+{ boolean v;
+  3);
+ }

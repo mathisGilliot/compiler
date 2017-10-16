@@ -1,0 +1,15 @@
+// Description:
+//    on déclare des champs au sein d'une classe
+//
+// Resultats:
+//   Erreur contextuelle:
+//   Ligne 8: le type B n'existe pas ! (Règle 1.3)
+
+class A extends B{
+	int a;
+	float b;
+	protected int c;
+
+	
+}
+

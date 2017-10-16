@@ -1,0 +1,13 @@
+// Description:
+//    verifie qu'on print pas test avec "println " deux print
+//
+// Resultats:
+//    test avec deux print
+//
+// Historique:
+//    cree le 10/01/2017
+
+{
+print("test avec ");
+println ("deux print");
+}

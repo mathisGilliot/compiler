@@ -1,0 +1,16 @@
+// Description:
+//    test simple d'un if
+//
+// Resultats:
+//  1
+//affiché : rien
+// Historique:
+//    cree le 14/01/2017
+{
+  int x = 0;
+  if (x == 0){
+     x = 1;
+     }
+    print(x);
+  
+}

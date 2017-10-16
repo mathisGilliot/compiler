@@ -1,0 +1,9 @@
+// Description :
+// test de l'expression null
+//
+// Résultats :
+// ok
+
+{
+  null;
+}

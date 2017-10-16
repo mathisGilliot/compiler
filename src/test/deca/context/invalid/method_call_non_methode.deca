@@ -1,0 +1,15 @@
+// Description :
+//    Test de l'appel d'une méthode qui n'est pas une méthode
+//
+// Résultats:
+//    Ligne 13 : 
+//
+// Historique:
+//    créé le 22/01/2017
+
+class A {
+    int x;
+    void getX() {
+    	this.x();
+    }
+}

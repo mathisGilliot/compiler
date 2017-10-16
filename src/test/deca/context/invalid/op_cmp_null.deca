@@ -1,0 +1,10 @@
+// Description :
+// test d'une comparaison avec null
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Comparaison enre des objets de type int et null impossible (règle 3.33)
+
+{
+  1 > null;
+}

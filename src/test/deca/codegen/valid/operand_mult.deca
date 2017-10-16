@@ -1,0 +1,15 @@
+// Description:
+//    test complexe avec different operateurs
+//
+// Resultats:
+//    3
+//
+// Historique:
+//    cree le 13/01/2017
+{
+int x = 2;
+int y = 3;
+int z ;
+z = ((2*x)-3)*2+1;
+print(z);
+}

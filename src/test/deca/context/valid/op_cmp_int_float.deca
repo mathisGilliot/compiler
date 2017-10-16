@@ -1,0 +1,17 @@
+// Description :
+// test de comparaisons entre des flottants et des entiers
+//
+// Résultats :
+// ok
+
+{
+  boolean b;
+  float x = 1.0;
+  int y = 2;
+  b = x == y;
+  b = y != x;
+  b = x < y;
+  b = y > x;
+  b = y <= x;
+  b = x >= y;
+}

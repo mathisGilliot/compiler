@@ -1,0 +1,10 @@
+// Description :
+// initialisation d'un float avec un entier 
+//
+// Résultats :
+// ok
+
+{
+  int x = 2;
+  float y = x;
+}

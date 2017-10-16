@@ -1,0 +1,13 @@
+//pas géré: primary_expr -> m=ident OPARENT args=list_expr CPARENT {
+//           				 assert($args.tree != null);
+//            				 assert($m.tree != null); }
+{if (true) {
+	println("if");
+ }
+ elsif s (false) {
+ 	println("elsif");
+ }
+ else {
+ 	println("else");
+ };
+}

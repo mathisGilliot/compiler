@@ -1,0 +1,1 @@
+./../deca/context/invalid/return_method.deca:15:11: getInt ne correspond pas à un champ, à un paramètre ou à une variable (règles 3.67, 3.68 et 3.69)

@@ -1,0 +1,54 @@
+`> [10, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [10, 0] Main
+      +> ListDeclVar [List with 11 elements]
+      |  []> [11, 6] DeclVar
+      |  ||  +> [11, 2] Identifier (int)
+      |  ||  +> Identifier (n1)
+      |  ||  `> NoInitialization
+      |  []> [11, 10] DeclVar
+      |  ||  +> [11, 2] Identifier (int)
+      |  ||  +> Identifier (n2)
+      |  ||  `> NoInitialization
+      |  []> [12, 10] DeclVar
+      |  ||  +> [12, 2] Identifier (int)
+      |  ||  +> Identifier (m)
+      |  ||  `> Initialization
+      |  ||     `> [12, 10] Int (5)
+      |  []> [13, 10] DeclVar
+      |  ||  +> [13, 2] Identifier (int)
+      |  ||  +> Identifier (m)
+      |  ||  `> Initialization
+      |  ||     `> [13, 10] Int (6)
+      |  []> [14, 8] DeclVar
+      |  ||  +> [14, 2] Identifier (float)
+      |  ||  +> Identifier (x1)
+      |  ||  `> NoInitialization
+      |  []> [14, 12] DeclVar
+      |  ||  +> [14, 2] Identifier (float)
+      |  ||  +> Identifier (x2)
+      |  ||  `> NoInitialization
+      |  []> [15, 12] DeclVar
+      |  ||  +> [15, 2] Identifier (float)
+      |  ||  +> Identifier (y)
+      |  ||  `> Initialization
+      |  ||     `> [15, 12] Float (5.0)
+      |  []> [16, 12] DeclVar
+      |  ||  +> [16, 2] Identifier (float)
+      |  ||  +> Identifier (z)
+      |  ||  `> Initialization
+      |  ||     `> [16, 12] Int (5)
+      |  []> [17, 9] DeclVar
+      |  ||  +> [17, 2] Identifier (string)
+      |  ||  +> Identifier (s1)
+      |  ||  `> NoInitialization
+      |  []> [17, 13] DeclVar
+      |  ||  +> [17, 2] Identifier (string)
+      |  ||  +> Identifier (s2)
+      |  ||  `> NoInitialization
+      |  []> [18, 14] DeclVar
+      |      +> [18, 2] Identifier (string)
+      |      +> Identifier (s3)
+      |      `> Initialization
+      |         `> [18, 14] StringLiteral (Hello)
+      `> ListInst [List with 0 elements]

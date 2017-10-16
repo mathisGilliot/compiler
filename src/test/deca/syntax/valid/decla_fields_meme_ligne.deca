@@ -1,0 +1,11 @@
+// Description:
+//    on déclare des champs au sein d'une classe (sur une même ligne)
+//
+// Resultats:
+//   ok
+
+class A {
+	int a, b, c;
+	protected float d, e, f;
+	boolean g, h, i;
+}

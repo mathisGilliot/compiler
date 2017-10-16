@@ -1,0 +1,11 @@
+// Description :
+// test d'un moins unaire sur un booléen
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 10 : Moins unaire sur un objet de type boolean impossible (règle 3.37)
+
+{
+  boolean b = true;
+  -b;
+}

@@ -1,0 +1,9 @@
+// Description:
+//    opération avec moins suivi de plus
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 9 : "no viable alternative at input '+'"
+
+{ int x;
+  x -+2;}

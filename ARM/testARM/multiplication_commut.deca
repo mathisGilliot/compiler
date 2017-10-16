@@ -1,0 +1,13 @@
+// Description:
+//    test multiplication commut
+//
+// Resultats:
+//  2
+//
+// Historique:
+//    cree le 13/01/2017
+{
+int x = 1;
+x = 2 * x;
+print(x);
+}

@@ -1,0 +1,13 @@
+// Description:
+//    test simple d'un add en init
+//
+// Resultats:
+//  5
+//
+//
+// Historique:
+//    cree le 18/01/2017
+{
+  int b = (2+3);
+  print(b);
+}

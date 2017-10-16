@@ -1,0 +1,7 @@
+// Description:
+//    on déclare une classe sans le crochet ouvrant
+//
+// Resultats:
+//   
+
+class A {

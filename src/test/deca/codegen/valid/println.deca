@@ -1,0 +1,12 @@
+// Description:
+//    simple println
+//
+// Resultats:
+//   1
+//
+//
+// Historique:
+//    cree le 14/01/2017
+{
+	println(1);
+}

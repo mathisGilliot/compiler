@@ -1,0 +1,1 @@
+./../deca/context/invalid/return_void.deca:15:4: Une méthode de type void ne peut pas renvoyer d'objet (règle 3.24)

@@ -1,0 +1,10 @@
+// Description :
+// test d'une opération logique entre des entiers
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Opération logique impossible entre des objets de type int et int (règle 3.33)
+
+{
+  1 && 1;
+}

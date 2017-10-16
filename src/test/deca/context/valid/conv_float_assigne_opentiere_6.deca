@@ -1,0 +1,10 @@
+// Description :
+// on déclare un float et on lui assigne une opération entière
+//
+// Résultats :
+// ok
+
+{
+  float y;
+  y = readInt();
+}

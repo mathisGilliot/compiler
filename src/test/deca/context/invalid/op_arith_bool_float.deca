@@ -1,0 +1,10 @@
+// Description :
+// test d'une opération arithmétique entre un booléen et un flottant
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Opération arithmétique entre des objets de type boolean et float impossible (règle 3.37)
+
+{
+  true + 1.0;
+}

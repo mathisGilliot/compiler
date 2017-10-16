@@ -1,0 +1,51 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 1 elements]
+      |  []> [8, 8] DeclVar
+      |      +> [8, 2] Identifier (float)
+      |      |  definition: type (builtin), type=float
+      |      +> [8, 8] Identifier (x)
+      |      |  definition: variable defined at [8, 8], type=float
+      |      `> NoInitialization
+      `> ListInst [List with 4 elements]
+         []> [9, 2] Assign
+         ||  type: float
+         ||  +> [9, 2] Identifier (x)
+         ||  |  definition: variable defined at [8, 8], type=float
+         ||  `> [9, 6] Divide
+         ||     type: float
+         ||     +> [9, 6] Float (1.0)
+         ||     |  type: float
+         ||     `> [9, 12] Float (1.0)
+         ||        type: float
+         []> [10, 2] Assign
+         ||  type: float
+         ||  +> [10, 2] Identifier (x)
+         ||  |  definition: variable defined at [8, 8], type=float
+         ||  `> [10, 6] Minus
+         ||     type: float
+         ||     +> [10, 6] Float (1.0)
+         ||     |  type: float
+         ||     `> [10, 12] Float (1.0)
+         ||        type: float
+         []> [11, 2] Assign
+         ||  type: float
+         ||  +> [11, 2] Identifier (x)
+         ||  |  definition: variable defined at [8, 8], type=float
+         ||  `> [11, 6] Multiply
+         ||     type: float
+         ||     +> [11, 6] Float (1.0)
+         ||     |  type: float
+         ||     `> [11, 12] Float (1.0)
+         ||        type: float
+         []> [12, 2] Assign
+             type: float
+             +> [12, 2] Identifier (x)
+             |  definition: variable defined at [8, 8], type=float
+             `> [12, 6] Plus
+                type: float
+                +> [12, 6] Float (1.0)
+                |  type: float
+                `> [12, 12] Float (1.0)
+                   type: float

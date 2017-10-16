@@ -1,0 +1,15 @@
+// Description:
+//    test complexe avec different operateurs
+//
+// Resultats:
+//    3.00000e+00
+//
+// Historique:
+//    cree le 13/01/2017
+{
+float x = 2.0;
+float y = 3.0;
+float z ;
+z = ((2.0*x)-3.0)*2.0+1.0;
+print(z);
+}

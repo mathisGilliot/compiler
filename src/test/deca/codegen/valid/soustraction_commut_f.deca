@@ -1,0 +1,13 @@
+// Description:
+//    test soustraction commut
+//
+// Resultats:
+//  2.00000e+00
+//
+// Historique:
+//    cree le 13/01/2017
+{
+float x = 0.0;
+x = 2.0 - x;
+print(x);
+}

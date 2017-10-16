@@ -1,0 +1,14 @@
+// Description:
+//    test addition multiple
+//
+// Resultats:
+//    4
+// affiché: -47604531
+// Historique:
+//    cree le 13/01/2017
+{
+int x = 1;
+int y = 3;
+x = x + y;
+print(x);
+}

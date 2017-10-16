@@ -1,0 +1,13 @@
+{
+	int x = 3;
+	int y = 6;
+	println ("x = ", x);
+	println("y = ", y);
+	println ("x+y = ", x+y);
+	println("x-y = ", x-y);
+	println("x/y = ", x/y);
+	println("y/x = ", y/x);
+	println("x%y = ", x%y);
+	println("y%x = ", y%x);
+}
+	

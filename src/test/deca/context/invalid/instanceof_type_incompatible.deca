@@ -1,0 +1,13 @@
+// Description :
+//    Test d'un instanceof avec des types incohérents
+//
+// Résultats:
+//    Ligne 12 : 
+//
+// Historique:
+//    créé le 21/01/2017
+
+{
+    int n;
+    boolean b = n instanceof int;
+}

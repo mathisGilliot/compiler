@@ -1,0 +1,11 @@
+// Description:
+//    mauvaise visibility d'un champ
+//
+// Resultats:
+//   
+
+class A {
+	float int a
+	float b;
+	
+}

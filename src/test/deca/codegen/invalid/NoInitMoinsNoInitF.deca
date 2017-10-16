@@ -1,0 +1,13 @@
+// Description:
+//    soustraction sans initialisation
+//
+// Resultats:
+//  Erreur
+//
+// Historique:
+//    cree le 13/01/2017
+{
+int x;
+float y;
+print(x-y);
+}

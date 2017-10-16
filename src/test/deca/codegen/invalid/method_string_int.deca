@@ -1,0 +1,18 @@
+// Description:
+//    incompatibilite var
+//
+// Resultats:
+//  erreur
+//
+// Historique:
+//    cree le 23/01/2017
+
+class A{
+  int add(int x,int y){
+    return x+y;
+  }
+}
+{
+A test = new A();
+print(test.add(1,"hello"));
+}

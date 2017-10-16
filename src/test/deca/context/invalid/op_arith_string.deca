@@ -1,0 +1,10 @@
+// Description :
+// test d'une opération arithmétique entre des chaîne de caractères
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Opération arithmétique entre des objets de type string et string impossible (règle 3.37)
+
+{
+  "Hello " + "world ";
+}

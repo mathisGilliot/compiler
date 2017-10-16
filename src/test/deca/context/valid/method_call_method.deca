@@ -1,0 +1,29 @@
+// Description:
+//    Test de l'appel d'une méthode dans une méthode
+//
+// Résultats:
+//    ok
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+    protected int x ;
+    void setX(int x) {
+        this.x = x ;
+    }
+    int getX() {
+        return x ;
+    }
+    void init() {
+        x = 0 ;
+    }
+}
+class B extends A {
+    int y ;
+    void init() {
+        setX(0) ;
+	this.setX(0);
+	y = 0 ;
+    }
+}

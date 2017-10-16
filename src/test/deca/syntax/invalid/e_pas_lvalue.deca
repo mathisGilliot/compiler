@@ -1,0 +1,11 @@
+// Description :
+// dans la règle assign_expr -> e=or_expr ('=' assign_expr) , e n'est pas une lvalue
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 9 : "left-hand side of assignment is not an lvalue"
+
+{
+  float x;
+  3+4 = x; 
+}

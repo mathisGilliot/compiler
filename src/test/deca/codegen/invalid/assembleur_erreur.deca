@@ -1,0 +1,14 @@
+// Description:
+//    methode assembleur qui n'existe pas
+//
+// Resultats:
+//    erreur
+//
+// Historique:
+//    cree le 23/01/2017
+
+class A{
+  void assemble()
+      asm("TEST");
+
+}

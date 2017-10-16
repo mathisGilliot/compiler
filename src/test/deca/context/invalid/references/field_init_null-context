@@ -1,0 +1,1 @@
+./../deca/context/invalid/field_init_null.deca:12:10: Affectation à un objet de type int une valeur de type null impossible (règle 3.28)

@@ -1,0 +1,1 @@
+./../deca/context/invalid/instanceof_type_incompatible.deca:12:16: Opération instanceof impossible entre des objets de type int et int (règle 3.40)

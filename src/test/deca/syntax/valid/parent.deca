@@ -1,0 +1,9 @@
+/* Test des expressions entre parenthèses */
+
+{
+  int x, y;
+  x = 5 + 2 * 3;
+  x = 5 * 2 + 3;
+  y = 2 * (x + 4);
+  y = 2 + (x * 4);
+}

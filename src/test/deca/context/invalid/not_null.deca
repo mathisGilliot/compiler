@@ -1,0 +1,10 @@
+// Description :
+// test de not sur null
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 9 : Négation sur un objet de type null impossible (règle 3.37)
+
+{
+  !null;
+}

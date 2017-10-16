@@ -1,0 +1,11 @@
+// Description :
+// comparaison d'un float avec un entier via une inégalité stricte <
+//
+// Résultats :
+// ok
+
+{
+  int x = 2;
+  float y ;
+  y < x;
+}

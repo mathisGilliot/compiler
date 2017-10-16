@@ -1,0 +1,28 @@
+// Description:
+//    test d'heritage
+//    test: protected
+//
+// Resultats:
+//    2
+//
+// Historique:
+//    cree le 23/01/2017
+class A {
+	protected int x = 1;
+	
+
+	
+}
+class B extends A {
+	int M() {
+		this.x = x+1;
+		return x;
+	}
+}
+{	
+	
+	B c = new B();
+	c.x = 2;
+	
+	
+}

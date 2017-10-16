@@ -1,0 +1,20 @@
+// Description:
+//    Test de la déclaration d'une liste de méthodes dans une classe
+//
+// Résultats:
+//    OK
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+  void helloWorld() {
+    println("Hello World !");
+  }
+  void helloWorld2() {
+    println("Hello World 2 !");
+  }
+  void helloWorld3() {
+    println("Hello World 3 !");
+  }
+}

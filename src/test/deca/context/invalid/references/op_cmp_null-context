@@ -1,0 +1,1 @@
+./../deca/context/invalid/op_cmp_null.deca:9:2: Comparaison entre des objets de type int et null impossible (règle 3.33)

@@ -1,0 +1,17 @@
+// Description:
+//    Test d'un instanceof
+//
+// Résultats:
+//    ok
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+}
+class B extends A {
+}
+{
+    A a = new B();
+    boolean b = a instanceof B;
+}

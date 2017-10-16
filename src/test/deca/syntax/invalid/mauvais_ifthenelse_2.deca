@@ -1,0 +1,18 @@
+// Description:
+//    mauvaise utilisation du if: autre chose qu'une exp dans la deuxième condition
+//
+// Resultats:
+// ligne 11: "no viable alternative at input 'print'"
+
+
+{if (true) {
+	println("if");
+ }
+ else if (print()) {
+ 	println("elsif");
+ }
+ else {
+ 	println("else");
+ };
+}
+  

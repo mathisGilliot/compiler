@@ -1,0 +1,43 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 1 elements]
+      |  []> [8, 6] DeclVar
+      |      +> [8, 2] Identifier (int)
+      |      |  definition: type (builtin), type=int
+      |      +> [8, 6] Identifier (x)
+      |      |  definition: variable defined at [8, 6], type=int
+      |      `> [8, 8] Initialization
+      |         `> [8, 10] Int (0)
+      |            type: int
+      `> ListInst [List with 1 elements]
+         []> [9, 2] IfThenElse
+             +> [9, 6] Equals
+             |  type: boolean
+             |  +> [9, 6] Identifier (x)
+             |  |  definition: variable defined at [8, 6], type=int
+             |  `> [9, 11] Int (2)
+             |     type: int
+             +> ListInst [List with 1 elements]
+             |  []> [10, 4] Println
+             |      `> ListExpr [List with 1 elements]
+             |         []> [10, 12] Identifier (x)
+             |             definition: variable defined at [8, 6], type=int
+             `> ListInst [List with 1 elements]
+                []> IfThenElse
+                    +> [11, 13] Equals
+                    |  type: boolean
+                    |  +> [11, 13] Identifier (x)
+                    |  |  definition: variable defined at [8, 6], type=int
+                    |  `> [11, 18] Int (0)
+                    |     type: int
+                    +> ListInst [List with 1 elements]
+                    |  []> [12, 4] Println
+                    |      `> ListExpr [List with 1 elements]
+                    |         []> [12, 12] Int (0)
+                    |             type: int
+                    `> ListInst [List with 1 elements]
+                       []> [14, 4] Println
+                           `> ListExpr [List with 1 elements]
+                              []> [14, 12] Identifier (x)
+                                  definition: variable defined at [8, 6], type=int

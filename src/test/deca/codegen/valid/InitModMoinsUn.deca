@@ -1,0 +1,12 @@
+// Description:
+//    tests simple de modulo
+//
+// Resultats:
+//    1
+//
+// Historique:
+//    cree le 22/01/2017
+{
+  int x = 3;
+	print(x%(-2));
+}

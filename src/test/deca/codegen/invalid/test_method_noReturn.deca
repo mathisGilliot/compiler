@@ -1,0 +1,22 @@
+// Description:
+//    test method sans returndans une classe
+//
+// Resultats:
+//  erreur
+//
+//
+// Historique:
+//    cree le 23/01/2017
+
+class A{
+  int add(int x, int y){
+    x = x+y;
+  }
+  }
+{
+A test = new A();
+int x = 1;
+int y = 1;
+test.add(x,y);
+print(x);
+}

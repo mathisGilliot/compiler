@@ -1,0 +1,18 @@
+// Description:
+//    test simple d'un eq boolean en init
+//
+// Resultats:
+//  ok
+//
+//
+// Historique:
+//    cree le 22/01/2017
+{
+boolean b = (1.0==1.0);
+if ( b){
+  print("ok");
+  }
+else {
+  print("oups");
+  }
+}

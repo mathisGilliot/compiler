@@ -1,0 +1,16 @@
+// Description:
+//    Programme qui print un int un float un string
+//
+// Resultats:
+//    13
+//    1.5
+//    toto
+//
+// Historique:
+//    cree le 13/01/2017
+{
+println(13);
+println(1.5);
+println("toto");
+println();
+}

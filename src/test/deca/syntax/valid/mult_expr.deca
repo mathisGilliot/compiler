@@ -1,0 +1,17 @@
+// Description:
+//     Test des opérations *, / et %
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 13/01/2017
+
+
+{
+  int x, y, z;
+  x = 2;
+  y = 2 * 3;
+  y = y / x;
+  z = 7 % 2;
+}

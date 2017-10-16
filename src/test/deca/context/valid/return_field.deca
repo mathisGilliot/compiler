@@ -1,0 +1,23 @@
+// Description:
+//    Test d'un return sur des champs
+//
+// Résultats:
+//    ok
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+  int a;
+  float x;
+  boolean b;
+  int getInt() {
+    return a;
+  }
+  float getFloat() {
+    return x;
+  }
+  boolean getBool() {
+    return b;
+  }
+}

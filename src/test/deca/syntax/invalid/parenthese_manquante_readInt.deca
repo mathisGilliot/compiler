@@ -1,0 +1,11 @@
+// Description:
+//    on omet une parenthèse au niveau de primary_exp pour readInt()
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 10 : "missing ')' at ';'"
+
+
+{ 
+  readInt(;
+ }

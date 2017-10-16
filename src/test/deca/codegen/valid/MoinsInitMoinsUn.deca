@@ -1,0 +1,12 @@
+// Description:
+//    tests simple soustraction
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 20/01/2017
+{
+int x = 2;
+print((-x)-1);
+}

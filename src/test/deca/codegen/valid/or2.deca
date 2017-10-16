@@ -1,0 +1,19 @@
+// Description:
+//    test simple d'un OR
+//
+// Resultats:
+//  ok
+//
+//
+// Historique:
+//    cree le 14/01/2017
+{
+  int x = 2 ;
+  int y = 5 ;
+  if (x == 3 || y == 0){
+    print("oups");
+  }
+  else {
+      print("ok");
+  }
+}

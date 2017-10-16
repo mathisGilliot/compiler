@@ -1,0 +1,15 @@
+// Description:
+//    test while
+//
+// Resultats:
+//  3
+//
+// Historique:
+//    cree le 13/01/2017
+{
+int x = 0;
+while(x < 4) {
+	x = x + 1;
+	}
+	print(x);
+}

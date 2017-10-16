@@ -1,0 +1,11 @@
+// Description:
+//    tests simple soustraction
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 20/01/2017
+{
+print((-2)-1.0);
+}

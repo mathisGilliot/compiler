@@ -1,0 +1,17 @@
+// Description:
+//    Test d'un return sur une méthode
+//
+// Résultats:
+//    Ligne 15 : getInt ne correspond pas à un champ, un paramètre ou une variable (règles 3.67, 3.68 et 3.69)
+//
+// Historique:
+//    créé le 21/01/2017
+
+class A {
+  int getInt(int a) {
+    return a;
+  }
+  int getInt2() {
+    return getInt;
+  }
+}

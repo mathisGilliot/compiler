@@ -1,0 +1,8 @@
+// Description:
+//    opérateur de comparaison == à la place de = pour une initialisation
+//
+// Resultats:
+//    Erreur de syntaxe
+//    ligne 8 : "mismatched input '==' expecting {',', ';'}"
+
+{ int x == 3;}

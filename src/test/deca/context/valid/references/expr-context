@@ -1,0 +1,19 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 0 elements]
+      `> ListInst [List with 6 elements]
+         []> [8, 2] Int (4)
+         ||  type: int
+         []> [9, 2] Float (5.0)
+         ||  type: float
+         []> [10, 2] Null 
+         ||  type: null
+         []> [11, 2] StringLiteral (Hello)
+         ||  type: string
+         []> [12, 2] Println
+         ||  `> ListExpr [List with 1 elements]
+         ||     []> [12, 10] StringLiteral (Hello)
+         ||         type: string
+         []> [13, 2] BooleanLiteral (true)
+             type: boolean

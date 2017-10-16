@@ -1,0 +1,12 @@
+// Description:
+//    tests simple division
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 21/01/2017
+{
+float x =1.0;
+print((-1)/(-x));
+}

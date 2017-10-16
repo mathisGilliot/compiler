@@ -1,0 +1,10 @@
+// Description :
+// test du moins unaire sur un flottant
+//
+// Résultats :
+// ok
+
+{
+  float y;
+  y = -3.0;
+}

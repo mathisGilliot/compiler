@@ -1,0 +1,11 @@
+// Résultat: 10
+
+
+{
+	int y;
+	y = 0;
+	while (y<10) {
+      	      y=y+1;
+	}
+	print(y);
+}

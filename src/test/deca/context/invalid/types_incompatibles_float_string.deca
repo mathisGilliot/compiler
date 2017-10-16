@@ -1,0 +1,11 @@
+// Description :
+// test de l'affectation de types différents incompatibles
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 10 : Affectation à un objet de type float une valeur de type string impossible (règle 3.28)
+
+{
+  float f;
+  f = "Hello";
+}

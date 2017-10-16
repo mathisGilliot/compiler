@@ -1,0 +1,18 @@
+// Description:
+//    modulo 0
+//
+// Resultats:
+//  erreur
+//
+// Historique:
+//    cree le 23/01/2017
+
+class A{
+  int mod(int x,int y){
+    return x%y;
+  }
+}
+{
+A test = new A();
+print(test.mod(1,0));
+}

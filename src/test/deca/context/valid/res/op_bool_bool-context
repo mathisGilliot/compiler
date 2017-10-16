@@ -1,0 +1,31 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 1 elements]
+      |  []> [8, 10] DeclVar
+      |      +> [8, 2] Identifier (boolean)
+      |      |  definition: type (builtin), type=boolean
+      |      +> [8, 10] Identifier (b)
+      |      |  definition: variable defined at [8, 10], type=boolean
+      |      `> NoInitialization
+      `> ListInst [List with 2 elements]
+         []> [9, 2] Assign
+         ||  type: boolean
+         ||  +> [9, 2] Identifier (b)
+         ||  |  definition: variable defined at [8, 10], type=boolean
+         ||  `> [9, 6] And
+         ||     type: boolean
+         ||     +> [9, 6] BooleanLiteral (true)
+         ||     |  type: boolean
+         ||     `> [9, 14] BooleanLiteral (false)
+         ||        type: boolean
+         []> [10, 2] Assign
+             type: boolean
+             +> [10, 2] Identifier (b)
+             |  definition: variable defined at [8, 10], type=boolean
+             `> [10, 6] Or
+                type: boolean
+                +> [10, 6] BooleanLiteral (true)
+                |  type: boolean
+                `> [10, 14] BooleanLiteral (false)
+                   type: boolean

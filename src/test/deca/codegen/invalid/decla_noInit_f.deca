@@ -1,0 +1,12 @@
+// Description:
+//    declaration sans initialisation
+//
+// Resultats:
+//  0
+//
+// Historique:
+//    cree le 13/01/2017
+{
+float x;
+print(x);
+}

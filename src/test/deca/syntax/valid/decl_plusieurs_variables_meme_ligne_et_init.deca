@@ -1,0 +1,7 @@
+// Description:
+//    on déclare plusieurs variables sur la même ligne et on les initialise
+//
+// Resultats:
+//    ok
+
+{ int x =1,y =1,z = 2;}

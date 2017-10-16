@@ -1,0 +1,11 @@
+// Description:
+//    tests simple multiplication
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 21/01/2017
+{
+print((-1)*1);
+}

@@ -1,0 +1,19 @@
+// Description :
+//    Test d'une lvalue méthode 
+//
+// Résultats:
+//    Ligne 16 : 
+//
+// Historique:
+//    créé le 22/01/2017
+
+class A {
+    int x;
+    int getX() {
+    	return x;
+    } 
+    int getXBis() {
+    	getXBis = getX;
+	return x; 
+    }
+}

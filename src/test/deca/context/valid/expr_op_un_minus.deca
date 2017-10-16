@@ -1,0 +1,12 @@
+// Description :
+// test du moins unaire dans une expression
+//
+// Résultats :
+// ok
+
+{
+  int x;
+  float y;
+  x = 1 + -5;
+  y = -x - -4.0;
+}

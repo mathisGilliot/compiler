@@ -1,0 +1,45 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 2 elements]
+      |  []> [8, 10] DeclVar
+      |  ||  +> [8, 2] Identifier (boolean)
+      |  ||  |  definition: type (builtin), type=boolean
+      |  ||  +> [8, 10] Identifier (b)
+      |  ||  |  definition: variable defined at [8, 10], type=boolean
+      |  ||  `> [8, 12] Initialization
+      |  ||     `> [8, 14] BooleanLiteral (true)
+      |  ||        type: boolean
+      |  []> [9, 10] DeclVar
+      |      +> [9, 2] Identifier (boolean)
+      |      |  definition: type (builtin), type=boolean
+      |      +> [9, 10] Identifier (c)
+      |      |  definition: variable defined at [9, 10], type=boolean
+      |      `> [9, 12] Initialization
+      |         `> [9, 14] BooleanLiteral (false)
+      |            type: boolean
+      `> ListInst [List with 2 elements]
+         []> [10, 2] Assign
+         ||  type: boolean
+         ||  +> [10, 2] Identifier (b)
+         ||  |  definition: variable defined at [8, 10], type=boolean
+         ||  `> [10, 6] Or
+         ||     type: boolean
+         ||     +> [10, 6] Not
+         ||     |  type: boolean
+         ||     |  `> [10, 7] BooleanLiteral (false)
+         ||     |     type: boolean
+         ||     `> [10, 16] Identifier (c)
+         ||        definition: variable defined at [9, 10], type=boolean
+         []> [11, 2] Assign
+             type: boolean
+             +> [11, 2] Identifier (c)
+             |  definition: variable defined at [9, 10], type=boolean
+             `> [11, 6] And
+                type: boolean
+                +> [11, 6] BooleanLiteral (true)
+                |  type: boolean
+                `> [11, 14] Not
+                   type: boolean
+                   `> [11, 15] Identifier (b)
+                      definition: variable defined at [8, 10], type=boolean

@@ -1,0 +1,12 @@
+// Description :
+// test on déclare un champ de type void
+//
+// Résultats :
+// Erreur contextuelle
+// Ligne 10 : type = void (Règle (2.5))
+
+
+  class A {
+  void a;
+  }
+
